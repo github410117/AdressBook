@@ -1,0 +1,21 @@
+PODS:
+  - FontasticIcons (0.5.0)
+  - JCDialPad (0.1.1):
+    - libPhoneNumber-iOS
+  - libPhoneNumber-iOS (0.8.12)
+  - PinYin4Objc (1.1.1)
+
+DEPENDENCIES:
+  - FontasticIcons
+  - JCDialPad
+  - PinYin4Objc
+
+SPEC CHECKSUMS:
+  FontasticIcons: f20740bf8f1d3565c312f1c3b9806339212b58aa
+  JCDialPad: d977d1ff76eaaa1939c5f3b8882937094e093b3d
+  libPhoneNumber-iOS: 3f1889b70403cf7848c0e4136780a0d0aef9016d
+  PinYin4Objc: 3fa9673610368330e2dfb688b1d19a35c3930a78
+
+PODFILE CHECKSUM: bef0eacb56aa1e0506b3c84c3be09db871c00d85
+
+COCOAPODS: 1.0.0

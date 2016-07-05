@@ -7,15 +7,94 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2586C12C1CF293AB003C46B8 /* AddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2586C12A1CF293AB003C46B8 /* AddViewController.m */; };
+		2586C12D1CF293AB003C46B8 /* AddViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2586C12B1CF293AB003C46B8 /* AddViewController.xib */; };
+		2586C1321CF2A465003C46B8 /* cellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2586C1301CF2A465003C46B8 /* cellTableViewCell.m */; };
+		2586C1331CF2A465003C46B8 /* cellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2586C1311CF2A465003C46B8 /* cellTableViewCell.xib */; };
+		2586C15F1CF2E811003C46B8 /* add.png in Resources */ = {isa = PBXBuildFile; fileRef = 2586C15E1CF2E811003C46B8 /* add.png */; };
+		2586C18A1CF3EEE1003C46B8 /* CallsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2586C1891CF3EEE1003C46B8 /* CallsViewController.m */; };
+		2586C1921CF3F630003C46B8 /* loadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2586C1901CF3F630003C46B8 /* loadViewController.m */; };
+		2586C1931CF3F630003C46B8 /* loadViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2586C1911CF3F630003C46B8 /* loadViewController.xib */; };
+		2586C1951CF400CC003C46B8 /* callcall.png in Resources */ = {isa = PBXBuildFile; fileRef = 2586C1941CF400CC003C46B8 /* callcall.png */; };
+		2586C1971CF408FA003C46B8 /* green.png in Resources */ = {isa = PBXBuildFile; fileRef = 2586C1961CF408FA003C46B8 /* green.png */; };
+		2586C1991CF40B72003C46B8 /* maoboli.png in Resources */ = {isa = PBXBuildFile; fileRef = 2586C1981CF40B72003C46B8 /* maoboli.png */; };
+		2586C19D1CF41182003C46B8 /* lianxiren.png in Resources */ = {isa = PBXBuildFile; fileRef = 2586C19C1CF41182003C46B8 /* lianxiren.png */; };
+		2586C1A31CF4135B003C46B8 /* bohaojianpan.png in Resources */ = {isa = PBXBuildFile; fileRef = 2586C19E1CF4135B003C46B8 /* bohaojianpan.png */; };
+		2586C1A41CF4135B003C46B8 /* facetime1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2586C19F1CF4135B003C46B8 /* facetime1.png */; };
+		2586C1A51CF4135B003C46B8 /* jiahao.png in Resources */ = {isa = PBXBuildFile; fileRef = 2586C1A01CF4135B003C46B8 /* jiahao.png */; };
+		2586C1A61CF4135B003C46B8 /* jingyin.png in Resources */ = {isa = PBXBuildFile; fileRef = 2586C1A11CF4135B003C46B8 /* jingyin.png */; };
+		2586C1A71CF4135B003C46B8 /* mianti.png in Resources */ = {isa = PBXBuildFile; fileRef = 2586C1A21CF4135B003C46B8 /* mianti.png */; };
+		6F4273D4515EFA73D1060462 /* libPods-我的通讯录.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AA78C6CDE5EFCC28EB89987B /* libPods-我的通讯录.a */; };
+		F77B10A71CF091CD00CBA92C /* xiangqing.plist in Resources */ = {isa = PBXBuildFile; fileRef = F77B10A41CF091CD00CBA92C /* xiangqing.plist */; };
+		F77B10A81CF091CD00CBA92C /* xiangxiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F77B10A61CF091CD00CBA92C /* xiangxiViewController.m */; };
+		F77B10AC1CF09D1300CBA92C /* call.png in Resources */ = {isa = PBXBuildFile; fileRef = F77B10A91CF09D1300CBA92C /* call.png */; };
+		F77B10AD1CF09D1300CBA92C /* facetime.png in Resources */ = {isa = PBXBuildFile; fileRef = F77B10AA1CF09D1300CBA92C /* facetime.png */; };
+		F77B10AE1CF09D1300CBA92C /* message.png in Resources */ = {isa = PBXBuildFile; fileRef = F77B10AB1CF09D1300CBA92C /* message.png */; };
+		F77B10E51CF1A83C00CBA92C /* SearchResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F77B10E41CF1A83C00CBA92C /* SearchResultViewController.m */; };
+		F7B1FA841CF3515C006475ED /* twilio.png in Resources */ = {isa = PBXBuildFile; fileRef = F7B1FA821CF3515C006475ED /* twilio.png */; };
+		F7B1FA851CF3515C006475ED /* wallpaper.png in Resources */ = {isa = PBXBuildFile; fileRef = F7B1FA831CF3515C006475ED /* wallpaper.png */; };
 		F7EB540C1CEF42AE009F997F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F7EB540B1CEF42AE009F997F /* main.m */; };
 		F7EB540F1CEF42AE009F997F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7EB540E1CEF42AE009F997F /* AppDelegate.m */; };
 		F7EB54121CEF42AE009F997F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7EB54111CEF42AE009F997F /* ViewController.m */; };
 		F7EB54151CEF42AE009F997F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7EB54131CEF42AE009F997F /* Main.storyboard */; };
 		F7EB54171CEF42AE009F997F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7EB54161CEF42AE009F997F /* Assets.xcassets */; };
 		F7EB541A1CEF42AE009F997F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7EB54181CEF42AE009F997F /* LaunchScreen.storyboard */; };
+		F7EB54251CEF42E9009F997F /* TaBbarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7EB54231CEF42E9009F997F /* TaBbarViewController.m */; };
+		F7EB54261CEF42E9009F997F /* TaBbarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7EB54241CEF42E9009F997F /* TaBbarViewController.xib */; };
+		F7EB543B1CEF4D0D009F997F /* CollectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7EB54391CEF4D0D009F997F /* CollectViewController.m */; };
+		F7EB543C1CEF4D0D009F997F /* CollectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7EB543A1CEF4D0D009F997F /* CollectViewController.xib */; };
+		F7EB54461CEF4D8C009F997F /* RecentCallsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7EB54441CEF4D8C009F997F /* RecentCallsTableViewController.m */; };
+		F7EB54471CEF4D8C009F997F /* RecentCallsTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7EB54451CEF4D8C009F997F /* RecentCallsTableViewController.xib */; };
+		F7EB544C1CEF4DC3009F997F /* AdressListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7EB544A1CEF4DC3009F997F /* AdressListViewController.m */; };
+		F7EB544D1CEF4DC3009F997F /* AdressListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7EB544B1CEF4DC3009F997F /* AdressListViewController.xib */; };
+		F7EB54521CEF4DE5009F997F /* DialKeyboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7EB54501CEF4DE5009F997F /* DialKeyboardViewController.m */; };
+		F7EB54531CEF4DE5009F997F /* DialKeyboardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7EB54511CEF4DE5009F997F /* DialKeyboardViewController.xib */; };
+		F7EB54561CEF57D4009F997F /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = F7EB54541CEF57D4009F997F /* star.png */; };
+		F7EB54571CEF57D4009F997F /* star1.png in Resources */ = {isa = PBXBuildFile; fileRef = F7EB54551CEF57D4009F997F /* star1.png */; };
+		F7EB545E1CEF589B009F997F /* clock.png in Resources */ = {isa = PBXBuildFile; fileRef = F7EB54581CEF589B009F997F /* clock.png */; };
+		F7EB545F1CEF589B009F997F /* clock1.png in Resources */ = {isa = PBXBuildFile; fileRef = F7EB54591CEF589B009F997F /* clock1.png */; };
+		F7EB54601CEF589B009F997F /* keyboard.png in Resources */ = {isa = PBXBuildFile; fileRef = F7EB545A1CEF589B009F997F /* keyboard.png */; };
+		F7EB54611CEF589B009F997F /* keyboard1.png in Resources */ = {isa = PBXBuildFile; fileRef = F7EB545B1CEF589B009F997F /* keyboard1.png */; };
+		F7EB54621CEF589B009F997F /* people.png in Resources */ = {isa = PBXBuildFile; fileRef = F7EB545C1CEF589B009F997F /* people.png */; };
+		F7EB54631CEF589B009F997F /* people1.png in Resources */ = {isa = PBXBuildFile; fileRef = F7EB545D1CEF589B009F997F /* people1.png */; };
+		F7EB54651CEF595B009F997F /* Class.plist in Resources */ = {isa = PBXBuildFile; fileRef = F7EB54641CEF595B009F997F /* Class.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2586C1291CF293AB003C46B8 /* AddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddViewController.h; sourceTree = "<group>"; };
+		2586C12A1CF293AB003C46B8 /* AddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddViewController.m; sourceTree = "<group>"; };
+		2586C12B1CF293AB003C46B8 /* AddViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddViewController.xib; sourceTree = "<group>"; };
+		2586C12F1CF2A465003C46B8 /* cellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cellTableViewCell.h; sourceTree = "<group>"; };
+		2586C1301CF2A465003C46B8 /* cellTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cellTableViewCell.m; sourceTree = "<group>"; };
+		2586C1311CF2A465003C46B8 /* cellTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = cellTableViewCell.xib; sourceTree = "<group>"; };
+		2586C15E1CF2E811003C46B8 /* add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add.png; sourceTree = "<group>"; };
+		2586C1881CF3EEE1003C46B8 /* CallsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CallsViewController.h; sourceTree = "<group>"; };
+		2586C1891CF3EEE1003C46B8 /* CallsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CallsViewController.m; sourceTree = "<group>"; };
+		2586C18F1CF3F630003C46B8 /* loadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = loadViewController.h; sourceTree = "<group>"; };
+		2586C1901CF3F630003C46B8 /* loadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = loadViewController.m; sourceTree = "<group>"; };
+		2586C1911CF3F630003C46B8 /* loadViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = loadViewController.xib; sourceTree = "<group>"; };
+		2586C1941CF400CC003C46B8 /* callcall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = callcall.png; sourceTree = "<group>"; };
+		2586C1961CF408FA003C46B8 /* green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = green.png; sourceTree = "<group>"; };
+		2586C1981CF40B72003C46B8 /* maoboli.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = maoboli.png; sourceTree = "<group>"; };
+		2586C19C1CF41182003C46B8 /* lianxiren.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lianxiren.png; sourceTree = "<group>"; };
+		2586C19E1CF4135B003C46B8 /* bohaojianpan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bohaojianpan.png; sourceTree = "<group>"; };
+		2586C19F1CF4135B003C46B8 /* facetime1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facetime1.png; sourceTree = "<group>"; };
+		2586C1A01CF4135B003C46B8 /* jiahao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jiahao.png; sourceTree = "<group>"; };
+		2586C1A11CF4135B003C46B8 /* jingyin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jingyin.png; sourceTree = "<group>"; };
+		2586C1A21CF4135B003C46B8 /* mianti.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mianti.png; sourceTree = "<group>"; };
+		34A74252DA5CE786525DDA1D /* Pods-我的通讯录.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-我的通讯录.debug.xcconfig"; path = "Pods/Target Support Files/Pods-我的通讯录/Pods-我的通讯录.debug.xcconfig"; sourceTree = "<group>"; };
+		7830332C7882008C568FD9FD /* Pods-我的通讯录.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-我的通讯录.release.xcconfig"; path = "Pods/Target Support Files/Pods-我的通讯录/Pods-我的通讯录.release.xcconfig"; sourceTree = "<group>"; };
+		AA78C6CDE5EFCC28EB89987B /* libPods-我的通讯录.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-我的通讯录.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F77B10A41CF091CD00CBA92C /* xiangqing.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = xiangqing.plist; sourceTree = "<group>"; };
+		F77B10A51CF091CD00CBA92C /* xiangxiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xiangxiViewController.h; sourceTree = "<group>"; };
+		F77B10A61CF091CD00CBA92C /* xiangxiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = xiangxiViewController.m; sourceTree = "<group>"; };
+		F77B10A91CF09D1300CBA92C /* call.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = call.png; sourceTree = "<group>"; };
+		F77B10AA1CF09D1300CBA92C /* facetime.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facetime.png; sourceTree = "<group>"; };
+		F77B10AB1CF09D1300CBA92C /* message.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = message.png; sourceTree = "<group>"; };
+		F77B10E31CF1A83C00CBA92C /* SearchResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchResultViewController.h; sourceTree = "<group>"; };
+		F77B10E41CF1A83C00CBA92C /* SearchResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchResultViewController.m; sourceTree = "<group>"; };
+		F7B1FA821CF3515C006475ED /* twilio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twilio.png; sourceTree = "<group>"; };
+		F7B1FA831CF3515C006475ED /* wallpaper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wallpaper.png; sourceTree = "<group>"; };
 		F7EB54071CEF42AE009F997F /* 我的通讯录.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "我的通讯录.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7EB540B1CEF42AE009F997F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F7EB540D1CEF42AE009F997F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +105,30 @@
 		F7EB54161CEF42AE009F997F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F7EB54191CEF42AE009F997F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F7EB541B1CEF42AE009F997F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7EB54221CEF42E9009F997F /* TaBbarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaBbarViewController.h; sourceTree = "<group>"; };
+		F7EB54231CEF42E9009F997F /* TaBbarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaBbarViewController.m; sourceTree = "<group>"; };
+		F7EB54241CEF42E9009F997F /* TaBbarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TaBbarViewController.xib; sourceTree = "<group>"; };
+		F7EB54381CEF4D0D009F997F /* CollectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectViewController.h; sourceTree = "<group>"; };
+		F7EB54391CEF4D0D009F997F /* CollectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectViewController.m; sourceTree = "<group>"; };
+		F7EB543A1CEF4D0D009F997F /* CollectViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectViewController.xib; sourceTree = "<group>"; };
+		F7EB54431CEF4D8C009F997F /* RecentCallsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecentCallsTableViewController.h; sourceTree = "<group>"; };
+		F7EB54441CEF4D8C009F997F /* RecentCallsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecentCallsTableViewController.m; sourceTree = "<group>"; };
+		F7EB54451CEF4D8C009F997F /* RecentCallsTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecentCallsTableViewController.xib; sourceTree = "<group>"; };
+		F7EB54491CEF4DC3009F997F /* AdressListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdressListViewController.h; sourceTree = "<group>"; };
+		F7EB544A1CEF4DC3009F997F /* AdressListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdressListViewController.m; sourceTree = "<group>"; };
+		F7EB544B1CEF4DC3009F997F /* AdressListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AdressListViewController.xib; sourceTree = "<group>"; };
+		F7EB544F1CEF4DE5009F997F /* DialKeyboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DialKeyboardViewController.h; sourceTree = "<group>"; };
+		F7EB54501CEF4DE5009F997F /* DialKeyboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DialKeyboardViewController.m; sourceTree = "<group>"; };
+		F7EB54511CEF4DE5009F997F /* DialKeyboardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DialKeyboardViewController.xib; sourceTree = "<group>"; };
+		F7EB54541CEF57D4009F997F /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
+		F7EB54551CEF57D4009F997F /* star1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star1.png; sourceTree = "<group>"; };
+		F7EB54581CEF589B009F997F /* clock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clock.png; sourceTree = "<group>"; };
+		F7EB54591CEF589B009F997F /* clock1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clock1.png; sourceTree = "<group>"; };
+		F7EB545A1CEF589B009F997F /* keyboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = keyboard.png; sourceTree = "<group>"; };
+		F7EB545B1CEF589B009F997F /* keyboard1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = keyboard1.png; sourceTree = "<group>"; };
+		F7EB545C1CEF589B009F997F /* people.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = people.png; sourceTree = "<group>"; };
+		F7EB545D1CEF589B009F997F /* people1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = people1.png; sourceTree = "<group>"; };
+		F7EB54641CEF595B009F997F /* Class.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Class.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +136,96 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F4273D4515EFA73D1060462 /* libPods-我的通讯录.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2586C1281CF29055003C46B8 /* 添加功能 */ = {
+			isa = PBXGroup;
+			children = (
+				2586C12E1CF2A41E003C46B8 /* 继承控件 */,
+				2586C1291CF293AB003C46B8 /* AddViewController.h */,
+				2586C12A1CF293AB003C46B8 /* AddViewController.m */,
+				2586C12B1CF293AB003C46B8 /* AddViewController.xib */,
+			);
+			name = "添加功能";
+			sourceTree = "<group>";
+		};
+		2586C12E1CF2A41E003C46B8 /* 继承控件 */ = {
+			isa = PBXGroup;
+			children = (
+				2586C12F1CF2A465003C46B8 /* cellTableViewCell.h */,
+				2586C1301CF2A465003C46B8 /* cellTableViewCell.m */,
+				2586C1311CF2A465003C46B8 /* cellTableViewCell.xib */,
+			);
+			name = "继承控件";
+			sourceTree = "<group>";
+		};
+		2586C1871CF3EEC2003C46B8 /* 第二个 */ = {
+			isa = PBXGroup;
+			children = (
+				2586C1881CF3EEE1003C46B8 /* CallsViewController.h */,
+				2586C1891CF3EEE1003C46B8 /* CallsViewController.m */,
+			);
+			name = "第二个";
+			sourceTree = "<group>";
+		};
+		2586C18B1CF3F5B9003C46B8 /* 正在拨号 */ = {
+			isa = PBXGroup;
+			children = (
+				2586C18F1CF3F630003C46B8 /* loadViewController.h */,
+				2586C1901CF3F630003C46B8 /* loadViewController.m */,
+				2586C1911CF3F630003C46B8 /* loadViewController.xib */,
+			);
+			name = "正在拨号";
+			sourceTree = "<group>";
+		};
+		4D271EFF998D3B0700845584 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA78C6CDE5EFCC28EB89987B /* libPods-我的通讯录.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B524BDE42032CC9F638EA350 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				34A74252DA5CE786525DDA1D /* Pods-我的通讯录.debug.xcconfig */,
+				7830332C7882008C568FD9FD /* Pods-我的通讯录.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F77B10A31CF091B300CBA92C /* 详细界面 */ = {
+			isa = PBXGroup;
+			children = (
+				F77B10A41CF091CD00CBA92C /* xiangqing.plist */,
+				F77B10A51CF091CD00CBA92C /* xiangxiViewController.h */,
+				F77B10A61CF091CD00CBA92C /* xiangxiViewController.m */,
+			);
+			name = "详细界面";
+			sourceTree = "<group>";
+		};
+		F77B10E21CF1A70500CBA92C /* 搜索界面 */ = {
+			isa = PBXGroup;
+			children = (
+				F77B10E31CF1A83C00CBA92C /* SearchResultViewController.h */,
+				F77B10E41CF1A83C00CBA92C /* SearchResultViewController.m */,
+			);
+			name = "搜索界面";
+			sourceTree = "<group>";
+		};
 		F7EB53FE1CEF42AD009F997F = {
 			isa = PBXGroup;
 			children = (
 				F7EB54091CEF42AE009F997F /* 我的通讯录 */,
 				F7EB54081CEF42AE009F997F /* Products */,
+				B524BDE42032CC9F638EA350 /* Pods */,
+				4D271EFF998D3B0700845584 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +240,11 @@
 		F7EB54091CEF42AE009F997F /* 我的通讯录 */ = {
 			isa = PBXGroup;
 			children = (
+				F7EB544E1CEF4DC6009F997F /* 拨号键盘 */,
+				F7EB54481CEF4D91009F997F /* 通讯录 */,
+				F7EB543D1CEF4D12009F997F /* 最近通话 */,
+				F7EB54371CEF4CEE009F997F /* 收藏界面 */,
+				F7EB54211CEF42B8009F997F /* TaBbar页面 */,
 				F7EB540D1CEF42AE009F997F /* AppDelegate.h */,
 				F7EB540E1CEF42AE009F997F /* AppDelegate.m */,
 				F7EB54101CEF42AE009F997F /* ViewController.h */,
@@ -74,9 +261,88 @@
 		F7EB540A1CEF42AE009F997F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2586C19E1CF4135B003C46B8 /* bohaojianpan.png */,
+				2586C19F1CF4135B003C46B8 /* facetime1.png */,
+				2586C1A01CF4135B003C46B8 /* jiahao.png */,
+				2586C1A11CF4135B003C46B8 /* jingyin.png */,
+				2586C1A21CF4135B003C46B8 /* mianti.png */,
+				2586C19C1CF41182003C46B8 /* lianxiren.png */,
+				2586C1981CF40B72003C46B8 /* maoboli.png */,
+				2586C1961CF408FA003C46B8 /* green.png */,
+				2586C1941CF400CC003C46B8 /* callcall.png */,
+				F7B1FA821CF3515C006475ED /* twilio.png */,
+				F7B1FA831CF3515C006475ED /* wallpaper.png */,
+				2586C15E1CF2E811003C46B8 /* add.png */,
+				F77B10A91CF09D1300CBA92C /* call.png */,
+				F77B10AA1CF09D1300CBA92C /* facetime.png */,
+				F77B10AB1CF09D1300CBA92C /* message.png */,
+				F7EB54581CEF589B009F997F /* clock.png */,
+				F7EB54591CEF589B009F997F /* clock1.png */,
+				F7EB545A1CEF589B009F997F /* keyboard.png */,
+				F7EB545B1CEF589B009F997F /* keyboard1.png */,
+				F7EB545C1CEF589B009F997F /* people.png */,
+				F7EB545D1CEF589B009F997F /* people1.png */,
+				F7EB54541CEF57D4009F997F /* star.png */,
+				F7EB54551CEF57D4009F997F /* star1.png */,
 				F7EB540B1CEF42AE009F997F /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F7EB54211CEF42B8009F997F /* TaBbar页面 */ = {
+			isa = PBXGroup;
+			children = (
+				F7EB54221CEF42E9009F997F /* TaBbarViewController.h */,
+				F7EB54231CEF42E9009F997F /* TaBbarViewController.m */,
+				F7EB54241CEF42E9009F997F /* TaBbarViewController.xib */,
+			);
+			name = "TaBbar页面";
+			sourceTree = "<group>";
+		};
+		F7EB54371CEF4CEE009F997F /* 收藏界面 */ = {
+			isa = PBXGroup;
+			children = (
+				F7EB54381CEF4D0D009F997F /* CollectViewController.h */,
+				F7EB54391CEF4D0D009F997F /* CollectViewController.m */,
+				F7EB543A1CEF4D0D009F997F /* CollectViewController.xib */,
+			);
+			name = "收藏界面";
+			sourceTree = "<group>";
+		};
+		F7EB543D1CEF4D12009F997F /* 最近通话 */ = {
+			isa = PBXGroup;
+			children = (
+				2586C1871CF3EEC2003C46B8 /* 第二个 */,
+				F7EB54431CEF4D8C009F997F /* RecentCallsTableViewController.h */,
+				F7EB54441CEF4D8C009F997F /* RecentCallsTableViewController.m */,
+				F7EB54451CEF4D8C009F997F /* RecentCallsTableViewController.xib */,
+			);
+			name = "最近通话";
+			sourceTree = "<group>";
+		};
+		F7EB54481CEF4D91009F997F /* 通讯录 */ = {
+			isa = PBXGroup;
+			children = (
+				2586C1281CF29055003C46B8 /* 添加功能 */,
+				F77B10E21CF1A70500CBA92C /* 搜索界面 */,
+				F77B10A31CF091B300CBA92C /* 详细界面 */,
+				F7EB54491CEF4DC3009F997F /* AdressListViewController.h */,
+				F7EB544A1CEF4DC3009F997F /* AdressListViewController.m */,
+				F7EB544B1CEF4DC3009F997F /* AdressListViewController.xib */,
+				F7EB54641CEF595B009F997F /* Class.plist */,
+			);
+			name = "通讯录";
+			sourceTree = "<group>";
+		};
+		F7EB544E1CEF4DC6009F997F /* 拨号键盘 */ = {
+			isa = PBXGroup;
+			children = (
+				2586C18B1CF3F5B9003C46B8 /* 正在拨号 */,
+				F7EB544F1CEF4DE5009F997F /* DialKeyboardViewController.h */,
+				F7EB54501CEF4DE5009F997F /* DialKeyboardViewController.m */,
+				F7EB54511CEF4DE5009F997F /* DialKeyboardViewController.xib */,
+			);
+			name = "拨号键盘";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,9 +352,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F7EB541E1CEF42AE009F997F /* Build configuration list for PBXNativeTarget "我的通讯录" */;
 			buildPhases = (
+				E1CA781E4261BB2CED77FD23 /* 📦 Check Pods Manifest.lock */,
 				F7EB54031CEF42AE009F997F /* Sources */,
 				F7EB54041CEF42AE009F997F /* Frameworks */,
 				F7EB54051CEF42AE009F997F /* Resources */,
+				06D69FA3287E25C55B7340CF /* 📦 Embed Pods Frameworks */,
+				D93BA4E70B9812D16D87068F /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -137,20 +406,112 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2586C12D1CF293AB003C46B8 /* AddViewController.xib in Resources */,
+				2586C1A51CF4135B003C46B8 /* jiahao.png in Resources */,
+				F7B1FA841CF3515C006475ED /* twilio.png in Resources */,
+				F7EB54261CEF42E9009F997F /* TaBbarViewController.xib in Resources */,
+				2586C1971CF408FA003C46B8 /* green.png in Resources */,
+				2586C1951CF400CC003C46B8 /* callcall.png in Resources */,
+				2586C1931CF3F630003C46B8 /* loadViewController.xib in Resources */,
+				F7EB54571CEF57D4009F997F /* star1.png in Resources */,
+				2586C1991CF40B72003C46B8 /* maoboli.png in Resources */,
+				2586C15F1CF2E811003C46B8 /* add.png in Resources */,
+				F7EB545F1CEF589B009F997F /* clock1.png in Resources */,
+				2586C1A41CF4135B003C46B8 /* facetime1.png in Resources */,
+				F7EB543C1CEF4D0D009F997F /* CollectViewController.xib in Resources */,
+				F7EB54631CEF589B009F997F /* people1.png in Resources */,
+				F7EB54611CEF589B009F997F /* keyboard1.png in Resources */,
+				2586C1A31CF4135B003C46B8 /* bohaojianpan.png in Resources */,
+				F7EB544D1CEF4DC3009F997F /* AdressListViewController.xib in Resources */,
+				F7B1FA851CF3515C006475ED /* wallpaper.png in Resources */,
+				F7EB54531CEF4DE5009F997F /* DialKeyboardViewController.xib in Resources */,
+				F77B10AE1CF09D1300CBA92C /* message.png in Resources */,
 				F7EB541A1CEF42AE009F997F /* LaunchScreen.storyboard in Resources */,
+				2586C1331CF2A465003C46B8 /* cellTableViewCell.xib in Resources */,
+				F7EB54601CEF589B009F997F /* keyboard.png in Resources */,
+				F7EB54621CEF589B009F997F /* people.png in Resources */,
+				F7EB54651CEF595B009F997F /* Class.plist in Resources */,
+				2586C19D1CF41182003C46B8 /* lianxiren.png in Resources */,
+				2586C1A61CF4135B003C46B8 /* jingyin.png in Resources */,
+				F77B10AC1CF09D1300CBA92C /* call.png in Resources */,
+				F7EB54561CEF57D4009F997F /* star.png in Resources */,
+				F7EB545E1CEF589B009F997F /* clock.png in Resources */,
 				F7EB54171CEF42AE009F997F /* Assets.xcassets in Resources */,
+				2586C1A71CF4135B003C46B8 /* mianti.png in Resources */,
+				F77B10A71CF091CD00CBA92C /* xiangqing.plist in Resources */,
+				F77B10AD1CF09D1300CBA92C /* facetime.png in Resources */,
+				F7EB54471CEF4D8C009F997F /* RecentCallsTableViewController.xib in Resources */,
 				F7EB54151CEF42AE009F997F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		06D69FA3287E25C55B7340CF /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-我的通讯录/Pods-我的通讯录-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D93BA4E70B9812D16D87068F /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-我的通讯录/Pods-我的通讯录-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1CA781E4261BB2CED77FD23 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F7EB54031CEF42AE009F997F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2586C1921CF3F630003C46B8 /* loadViewController.m in Sources */,
+				2586C18A1CF3EEE1003C46B8 /* CallsViewController.m in Sources */,
+				F7EB54461CEF4D8C009F997F /* RecentCallsTableViewController.m in Sources */,
+				2586C1321CF2A465003C46B8 /* cellTableViewCell.m in Sources */,
+				F7EB54521CEF4DE5009F997F /* DialKeyboardViewController.m in Sources */,
+				2586C12C1CF293AB003C46B8 /* AddViewController.m in Sources */,
+				F7EB54251CEF42E9009F997F /* TaBbarViewController.m in Sources */,
+				F7EB544C1CEF4DC3009F997F /* AdressListViewController.m in Sources */,
 				F7EB54121CEF42AE009F997F /* ViewController.m in Sources */,
+				F77B10A81CF091CD00CBA92C /* xiangxiViewController.m in Sources */,
+				F7EB543B1CEF4D0D009F997F /* CollectViewController.m in Sources */,
+				F77B10E51CF1A83C00CBA92C /* SearchResultViewController.m in Sources */,
 				F7EB540F1CEF42AE009F997F /* AppDelegate.m in Sources */,
 				F7EB540C1CEF42AE009F997F /* main.m in Sources */,
 			);
@@ -262,6 +623,7 @@
 		};
 		F7EB541F1CEF42AE009F997F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34A74252DA5CE786525DDA1D /* Pods-我的通讯录.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "我的通讯录/Info.plist";
@@ -273,6 +635,7 @@
 		};
 		F7EB54201CEF42AE009F997F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7830332C7882008C568FD9FD /* Pods-我的通讯录.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "我的通讯录/Info.plist";
@@ -301,6 +664,7 @@
 				F7EB54201CEF42AE009F997F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

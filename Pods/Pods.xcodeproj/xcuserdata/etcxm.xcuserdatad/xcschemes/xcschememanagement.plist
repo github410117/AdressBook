@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>FontasticIcons.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>JCDialPad.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>PinYin4Objc.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-我的通讯录.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>libPhoneNumber-iOS.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>0CCBBF4BAA3FA48F98623D8875DC1DA7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1E5936259193F0E0BDEFBFF731D25B62</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3BE1D979F7DD158600BDE8F661639DE5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8DD77FFBBC6F36515793C021799E67B8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A46EAB9AC6B3C0E1A08E18539D1E5F9D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

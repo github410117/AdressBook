@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "TaBbarViewController.h"
+
+#import "AddViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +20,12 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+//    UINavigationController *na = [[UINavigationController alloc] initWithRootViewController:[[TaBbarViewController alloc] init]];
+    self.window.rootViewController = [[TaBbarViewController alloc] init];
+    
+    
+//    UINavigationController *na = [[UINavigationController alloc] initWithRootViewController:[[AddViewController alloc] init]];
+//    self.window.rootViewController = na;
     return YES;
 }
 

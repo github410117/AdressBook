@@ -1,0 +1,1206 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09FB1539BD58B4A228AA160590DC5B79 /* NBAsYouTypeFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7B5510F4129E172F1B3D8F72D1D20D /* NBAsYouTypeFormatter.m */; };
+		0B651A1C87185F170912036BBF977D85 /* FIIcon+FIIconRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = BE77D0699A7B694D44581C890071152D /* FIIcon+FIIconRenderer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0BA19442B3C89A446777DBBAC1A2BC2D /* FIIconLayer+FIRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E0508CF901FD343303A3DA42ED38B1E /* FIIconLayer+FIRenderer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0E33D27691C990C7C837220DC264B868 /* PinyinFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = F7F7BB3D8B5C4A744E9F5B0F2411384D /* PinyinFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F713718CD82E34371B2DDAB3EEAF3D6 /* NBPhoneNumberUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 81207DD50CF96C348B5C4EFE6ACDD91C /* NBPhoneNumberUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		10E00830D8CE128D2B9C9B317DD599D2 /* FIIcon+Impl.m in Sources */ = {isa = PBXBuildFile; fileRef = AD9E4C03510B62414BFDA08897705AA2 /* FIIcon+Impl.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		1830E2DA85A418298B26729EF3B1B52B /* NBNumberFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 4228E528345C9F704096D13ABE5474AA /* NBNumberFormat.m */; };
+		19EEDAC3348B8CFE57D41B76CCBA098D /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D6B8E154A1EC4FBDB378DDDD597F80F /* CoreText.framework */; };
+		1CFBE629796369F10579102567A9DC90 /* NBMetadataCoreMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = B261B279250945A76686D986ED9893B9 /* NBMetadataCoreMapper.m */; };
+		1DBC12ADCBFA87601A90DB2FE3C3728C /* NBAsYouTypeFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 707B790D8FA4359B7117B2D7F6A6E481 /* NBAsYouTypeFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2467A7AE65991A8B684EADD5CE1DA3B7 /* FIIcon+Deprecation.h in Headers */ = {isa = PBXBuildFile; fileRef = A78B3F0687F540EBDDCC3B8E51D3C724 /* FIIcon+Deprecation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2658969E817E3F0063EACD27458BCD2F /* NSString+PinYin4Cocoa.m in Sources */ = {isa = PBXBuildFile; fileRef = B01F63DF8C903198E88E54219580CF1E /* NSString+PinYin4Cocoa.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2665DA7F311CCB8653B5EF0B920EC2DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AE7AB28A4EF958904644D02A45F85A7 /* Foundation.framework */; };
+		26E126992CB443EEB9DDFA4CE13A4362 /* UIView+FrameAccessor.h in Headers */ = {isa = PBXBuildFile; fileRef = 27944C8B891604E1456D25DA18EBD801 /* UIView+FrameAccessor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E7C8F6F06568196EDDADFD4D90BFFB3 /* FIIcon+FIIconRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = EEC76275754819194BE8234E3B7B2713 /* FIIcon+FIIconRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2FA55AFD2868774E8070370D43BFB818 /* Pods-我的通讯录-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E434F2B71E4E858218F0ADD1AF433527 /* Pods-我的通讯录-dummy.m */; };
+		2FA5A02E04D2644F05C9A0043C9A859A /* NBMetadataCoreTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8562255AB39E5F05E975743CB8BE02FB /* NBMetadataCoreTest.m */; };
+		314EF1CD8EE0B2179785691694CFCB4A /* FIIcon+Deprecation.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C1312C30E1CCDC2BBE6F82213EB7DF /* FIIcon+Deprecation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		34B392B231A3ADFFFD59A8B98EE7D501 /* NBMetadataCoreTestMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 68A3AB11107147C1B0DCEDB01147D0E9 /* NBMetadataCoreTestMapper.m */; };
+		34C3901D6E8B566BEA4D3730FDC5244C /* FIIconicIcon.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F27E67719D0509102BA6031D30C7385 /* FIIconicIcon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D8BB839666E6345759B8A02BD6038FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AE7AB28A4EF958904644D02A45F85A7 /* Foundation.framework */; };
+		4148F1AAA50D0E5C676B6801100FE546 /* FIFont+Deprecation.m in Sources */ = {isa = PBXBuildFile; fileRef = 05DBFBE022EAE5DCAD27F3034D9C19FD /* FIFont+Deprecation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		47F9D9E27A28CEA429B60ED172E5D799 /* PinyinHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 554571259A15E34BE2499AA346751E43 /* PinyinHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4856B77569991A1F8ECA90AC1734C181 /* PinYin4Objc.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C2A229E18718D033E0E491BDD594090 /* PinYin4Objc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A717270FAA9A1A75B2DB47028668973 /* PinyinHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 358C3872AA3C6B467DB0000CBD16622A /* PinyinHelper.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		4B2A904C218C82FA49EA02814077A576 /* NSString+PinYin4Cocoa.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F0BFED45331308B2470385218845B9 /* NSString+PinYin4Cocoa.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F49521166315A95140A233DFE2F29FD /* FIEntypoIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = 5857B6E338ACEC11166CCE60CA920DBE /* FIEntypoIcon.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		50B2EA0C432C9768A8495D526A72248A /* FIIconView.h in Headers */ = {isa = PBXBuildFile; fileRef = BD9407C9DABDAB3D94D66AFFD4DDB23B /* FIIconView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		57BFD091E4F20F14E6664EF9EADDA5B8 /* FIIcon.h in Headers */ = {isa = PBXBuildFile; fileRef = E40E5FCD2F66C72005473CB3ECB0E591 /* FIIcon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5893DD2CC6160E1EB1676C65C8E291F0 /* NBMetadataCoreTestMapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 992EAD16E0DCFA4F5B406E23C340FADF /* NBMetadataCoreTestMapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5BE5F9D53EDFE6012546E01A66423524 /* NBMetadataCoreMapper.h in Headers */ = {isa = PBXBuildFile; fileRef = FD312AAF5F913956D9FD75AE0D8AEADA /* NBMetadataCoreMapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F24C19A8F2D1B9859EB1A6194C4D0D8 /* FIIconLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 936B657E6F686F79124A10C62B735728 /* FIIconLayer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		60FD5AEE923169A9444E70EF965E36C8 /* FIFontAwesomeIcon.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DC5A9A3001AB1B91CD1123353980968 /* FIFontAwesomeIcon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		62BA12488542458CFA61ECAD644A29DB /* FIFont+Deprecation.h in Headers */ = {isa = PBXBuildFile; fileRef = B1AD314A4F3BC8A3959FA5A04E6BBBF2 /* FIFont+Deprecation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		635D7DB14752D89519BFE294191CFB72 /* FontasticIcons-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AE7ED55512C1DDDEC511ADA3FC69767 /* FontasticIcons-dummy.m */; };
+		64FB95942254A4DC049E85FD4A7A550C /* NBPhoneNumber.h in Headers */ = {isa = PBXBuildFile; fileRef = CC74B196FCC69420913833C879A7E3C7 /* NBPhoneNumber.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6522C089EB8AD28D2205CFA07FF8D412 /* FIFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C8F43A85EAE309DBDC1B53505861F16 /* FIFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		68102902F9E41B18B71F8B6F2393FDCB /* FIIcon+Impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 79E7FF83233A105BE62E9979EED7975E /* FIIcon+Impl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		685F55272933CAE1499AFC99594E7D35 /* NBPhoneNumberDesc.m in Sources */ = {isa = PBXBuildFile; fileRef = 05BB0957F857D786F726B4721A5E0D81 /* NBPhoneNumberDesc.m */; };
+		6E2BF8A2BEBA442A865FF3BC5A10C7DE /* libPhoneNumber-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A1651F0BB75EBE30F55054CE6ECBBBC9 /* libPhoneNumber-iOS-dummy.m */; };
+		7172D185F4F8F4A4FBD62708BA68E3D5 /* NBMetadataHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = EEC43F429FF9E069680A9AF56A273C50 /* NBMetadataHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		71856A244D31188FDFBEC9A125722632 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AE7AB28A4EF958904644D02A45F85A7 /* Foundation.framework */; };
+		7259EB905DF2E9B7A2512581B9018C54 /* PinyinFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 133EC5E8A24BD1BCD64CA58DACDB2D92 /* PinyinFormatter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		77A6555A59951834B6219D8F4800DFCE /* NBPhoneNumberDesc.h in Headers */ = {isa = PBXBuildFile; fileRef = CE8BFD0BC57CD71C661405FC3C09E5F3 /* NBPhoneNumberDesc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A64FBA532EE50A1600EB1DE4E595CFC /* HanyuPinyinOutputFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = DC72FE5C338F1539D11751C76B59AF7D /* HanyuPinyinOutputFormat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B671D3A5B64B556ACA4AF0C1B8C0519 /* NBPhoneNumberUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D8B3F575E6EA8FE7275733727E0C946 /* NBPhoneNumberUtil.m */; };
+		7E9CA81F8EC2DDB000BC19BBF20569E0 /* FontasticIcons+Deprecation.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C578D5235F2554F77FAB95193DCA7C5 /* FontasticIcons+Deprecation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8169B05C341F6CF573387182AA00BCE0 /* FIEntypoSocialIcon.h in Headers */ = {isa = PBXBuildFile; fileRef = EEB93E816ADC2E0C5CB3536887E43832 /* FIEntypoSocialIcon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81EA4B3F04403F9D3F09BF509C731C9F /* FIIconView.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F6DB559EC4146E63FE26F972DDCEC9 /* FIIconView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		870F921B6CFDBD0486AEF0906D2865C8 /* PinYin4Objc-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F4264AEA38D8CD3701CFB148C4AC123 /* PinYin4Objc-dummy.m */; };
+		8CE58F1D796F171C0761C7B0347E62F3 /* NBPhoneNumberDefines.m in Sources */ = {isa = PBXBuildFile; fileRef = ED144D70CD62C7034A332BFD34FFEAFD /* NBPhoneNumberDefines.m */; };
+		8FAC8511699A8B04EEB3370DC5E1D1C9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A1272CD7898DF6D85BCFCA9AF0B0BB /* QuartzCore.framework */; };
+		90683CD8D90CE800FB08FCEC165865F0 /* JCDialPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C790308C585FB977DBB8337A8B4E793 /* JCDialPad.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		947514391C04CC92044694FC724E5EE7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AE7AB28A4EF958904644D02A45F85A7 /* Foundation.framework */; };
+		961FFBB1E15F8038F787ACED2C66E1F5 /* FIIconLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 971490EB125D6C9B29BB1E4F65F82657 /* FIIconLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9AE2EACD34B305149D73B407C2FFBF6F /* NBPhoneMetaData.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AC86069DEF103E8D2FD90C1D1B6CBCD /* NBPhoneMetaData.m */; };
+		9C971BE81A3135BFC3986657CF3E25A9 /* FIEntypoSocialIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BA8A32A2E6EED1E59BAC63FF8F3F5F8 /* FIEntypoSocialIcon.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A07740D16F33C488F368C99537B23E68 /* ChineseToPinyinResource.m in Sources */ = {isa = PBXBuildFile; fileRef = 45FD5FDC840EC178DA657E98DD998FC5 /* ChineseToPinyinResource.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A3A1277BAADA364C2BEF71A27DFFACBA /* FIEntypoIcon.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF0BD5A5512E3E7F58CD0D543EE800F /* FIEntypoIcon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC1712388AE2A0114AA95D4272CE71F7 /* FIIconRendering.h in Headers */ = {isa = PBXBuildFile; fileRef = A2D79380ECBC1D9B98F8F213A1F2AE22 /* FIIconRendering.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF696235B1B1A51005DF57ED5D11FDF7 /* NBMetadataCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B3A81D8D0D6FAA3A67B284A7A2AD299 /* NBMetadataCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B816139DA460A8C018452A469FDD6937 /* NBPhoneNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C86C41A9E38B0F3ADF95D402F4E4EB /* NBPhoneNumber.m */; };
+		B99390292FC1E1A4279E7F786A59C2BB /* JCDialPad-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D45D028813D7CDAD18EBF6A174B12F8A /* JCDialPad-dummy.m */; };
+		BA68E12BC2C67CD3464E95D627F55D10 /* ChineseToPinyinResource.h in Headers */ = {isa = PBXBuildFile; fileRef = 27F33C57D08962B735BAE13BAE9A7286 /* ChineseToPinyinResource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BCD7A6027E6E667FE4403060DAD45334 /* UIView+FrameAccessor.m in Sources */ = {isa = PBXBuildFile; fileRef = ABFAA8CD5C170A56DBA50616989BD06E /* UIView+FrameAccessor.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		BE9BC2852A591E4211551B16EA430231 /* HanyuPinyinOutputFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DB7C35CEB0A48EA8C20F1AB3DE26754 /* HanyuPinyinOutputFormat.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		BF3AF561103EE863A002B2BAF5C7239C /* FIRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 05114C2B6D6B023C57FE0DF93EFAD271 /* FIRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5A2FADBF867F2C21E3586866920C97E /* FIFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D06016CB44155FC7FBB81AF7C711E77 /* FIFont.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		CC48E2FA893B0F011FC40BB324FFE8E9 /* FIIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C53107182C17E552490F72E85396DC /* FIIcon.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		CDB5C37675A889F41EC53316BE34CDE3 /* FontasticIcons.h in Headers */ = {isa = PBXBuildFile; fileRef = C442BE193A4C997DECD5635DE3008670 /* FontasticIcons.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CEBC32AD027F2AD3A147E1A5C720CA30 /* NBPhoneMetaData.h in Headers */ = {isa = PBXBuildFile; fileRef = FBA57245076058C3E01379E7D140396E /* NBPhoneMetaData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D28EB4B309195AE69EAAEC8F17838FC5 /* NBNumberFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = E43D2739464854F4B796422C7FAEEFDE /* NBNumberFormat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D350D3B75B3AF6DABAAB9EE2D005DFEB /* JCPadButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E0321780BC7A9AFF2B4A5F6DF26979B /* JCPadButton.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		DB32DF522CA6EB4788B2BA8C107AC5C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AE7AB28A4EF958904644D02A45F85A7 /* Foundation.framework */; };
+		DD1C8B2CC41B1321D1B7BFBAF241004C /* NBMetadataCore.m in Sources */ = {isa = PBXBuildFile; fileRef = A2EFE34788C33B8F7DAD319099F36506 /* NBMetadataCore.m */; };
+		E0795322AD9F314613B6D86962B713DA /* NBMetadataCoreTest.h in Headers */ = {isa = PBXBuildFile; fileRef = C5953AA80183C5627C3F60220C94EA25 /* NBMetadataCoreTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E74702B71A0A75FE947D4AB4E193E13A /* FIIcon+Forwarding.m in Sources */ = {isa = PBXBuildFile; fileRef = E36022082087154E33EFF4B3C9FC3C39 /* FIIcon+Forwarding.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		ED5F2BEEAEE10A77B60DF9751746394B /* JCDialPad.h in Headers */ = {isa = PBXBuildFile; fileRef = 71A28D6EF0E5364E86FB6FA1E29ADAF6 /* JCDialPad.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EDE14924224C4BDA90E6A2B2CB898403 /* FIFontAwesomeIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = 895151581036D04075E944D1BE64531C /* FIFontAwesomeIcon.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		EFA7AE280CF9B94AE2DB4AF8ADA68713 /* JCPadButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FCE4CA4A0B5B922F86E21216F3271CA /* JCPadButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F03B57F3E522577505CC64FC4DBA6A2C /* NBMetadataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 71FBF18905C4BDE7FF370CAA1AFD79F1 /* NBMetadataHelper.m */; };
+		F1DD32543FEEB9CC0F099DD92F9D4923 /* FIFontAwesomeIcon+Deprecation.h in Headers */ = {isa = PBXBuildFile; fileRef = 628967CA7B7ACD176A69139FFE0C4899 /* FIFontAwesomeIcon+Deprecation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F21744E5221E846A5C48A69934ECFB13 /* FIFont+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = E3FA3BB7A3607012BDE753802A967380 /* FIFont+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3E8225D48C12BA8DACEC806CB5836BA /* FIIconicIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = 44672535B4597FC6D970434D3B85BBA1 /* FIIconicIcon.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F6235E1922F2C2E1D7FEB8179B1C8B89 /* FIIconLayer+FIRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = E66D970E51EB578230DE3677D8DB3E4D /* FIIconLayer+FIRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F63A94B0DFDA82CC6441DCF1F4AA9E34 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43F895D41EE5B60A9786F318949A3C1C /* CoreTelephony.framework */; };
+		F72E78DCF9107243742F1BB836917508 /* NBPhoneNumberDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BE02D72DD8B0C3FA2352FF2201C6F32 /* NBPhoneNumberDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		234EF3E665FC43039593F0C3F6CB95C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E5936259193F0E0BDEFBFF731D25B62;
+			remoteInfo = JCDialPad;
+		};
+		33572B5CF474BAF0687EC10F9EAC217D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DD77FFBBC6F36515793C021799E67B8;
+			remoteInfo = "libPhoneNumber-iOS";
+		};
+		3747C0E20228CFD2427AC69271B1503A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DD77FFBBC6F36515793C021799E67B8;
+			remoteInfo = "libPhoneNumber-iOS";
+		};
+		525630539DA9C21AD7D182070BC3909C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0CCBBF4BAA3FA48F98623D8875DC1DA7;
+			remoteInfo = PinYin4Objc;
+		};
+		B1AF0F70AF798973954225556502B035 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3BE1D979F7DD158600BDE8F661639DE5;
+			remoteInfo = FontasticIcons;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04A1272CD7898DF6D85BCFCA9AF0B0BB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		05114C2B6D6B023C57FE0DF93EFAD271 /* FIRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRenderer.h; path = FontasticIcons/Sources/Classes/FIRenderer.h; sourceTree = "<group>"; };
+		05BB0957F857D786F726B4721A5E0D81 /* NBPhoneNumberDesc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NBPhoneNumberDesc.m; path = libPhoneNumber/NBPhoneNumberDesc.m; sourceTree = "<group>"; };
+		05DBFBE022EAE5DCAD27F3034D9C19FD /* FIFont+Deprecation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FIFont+Deprecation.m"; path = "FontasticIcons/Sources/Classes/FIFont+Deprecation.m"; sourceTree = "<group>"; };
+		08C30B2BF3A05BD7752BE87FDFF89B42 /* Pods-我的通讯录.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-我的通讯录.debug.xcconfig"; sourceTree = "<group>"; };
+		0BA8A32A2E6EED1E59BAC63FF8F3F5F8 /* FIEntypoSocialIcon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIEntypoSocialIcon.m; path = FontasticIcons/Sources/Classes/FIEntypoSocialIcon.m; sourceTree = "<group>"; };
+		0DC60B379F0276715716BB3FCED3BF64 /* unicode_to_hanyu_pinyin.txt */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = unicode_to_hanyu_pinyin.txt; path = PinYin4Objc/Resources/unicode_to_hanyu_pinyin.txt; sourceTree = "<group>"; };
+		0FCE4CA4A0B5B922F86E21216F3271CA /* JCPadButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JCPadButton.h; path = JCDialPad/JCPadButton.h; sourceTree = "<group>"; };
+		12C1312C30E1CCDC2BBE6F82213EB7DF /* FIIcon+Deprecation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FIIcon+Deprecation.m"; path = "FontasticIcons/Sources/Classes/FIIcon+Deprecation.m"; sourceTree = "<group>"; };
+		133EC5E8A24BD1BCD64CA58DACDB2D92 /* PinyinFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PinyinFormatter.m; path = PinYin4Objc/Classes/PinyinFormatter.m; sourceTree = "<group>"; };
+		146FC8D7E60047BA0194DF3F6D505EB8 /* Entypo.otf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = Entypo.otf; path = FontasticIcons/Sources/Resources/Fonts/Entypo.otf; sourceTree = "<group>"; };
+		1C790308C585FB977DBB8337A8B4E793 /* JCDialPad.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JCDialPad.m; path = JCDialPad/JCDialPad.m; sourceTree = "<group>"; };
+		1D8B3F575E6EA8FE7275733727E0C946 /* NBPhoneNumberUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NBPhoneNumberUtil.m; path = libPhoneNumber/NBPhoneNumberUtil.m; sourceTree = "<group>"; };
+		27944C8B891604E1456D25DA18EBD801 /* UIView+FrameAccessor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+FrameAccessor.h"; path = "JCDialPad/UIView+FrameAccessor.h"; sourceTree = "<group>"; };
+		27F33C57D08962B735BAE13BAE9A7286 /* ChineseToPinyinResource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ChineseToPinyinResource.h; path = PinYin4Objc/Classes/ChineseToPinyinResource.h; sourceTree = "<group>"; };
+		3539F730D9939C991C41A3DF8F7E2399 /* EntypoSocial.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = EntypoSocial.strings; path = FontasticIcons/Sources/Resources/Strings/EntypoSocial.strings; sourceTree = "<group>"; };
+		358C3872AA3C6B467DB0000CBD16622A /* PinyinHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PinyinHelper.m; path = PinYin4Objc/Classes/PinyinHelper.m; sourceTree = "<group>"; };
+		3897D0D729FF23A8EA144E1A2506D58C /* Pods-我的通讯录-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-我的通讯录-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3B3A81D8D0D6FAA3A67B284A7A2AD299 /* NBMetadataCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NBMetadataCore.h; path = libPhoneNumber/NBMetadataCore.h; sourceTree = "<group>"; };
+		3BE02D72DD8B0C3FA2352FF2201C6F32 /* NBPhoneNumberDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NBPhoneNumberDefines.h; path = libPhoneNumber/NBPhoneNumberDefines.h; sourceTree = "<group>"; };
+		3D380BF2055148485F22D29F9A5A6EE0 /* liblibPhoneNumber-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "liblibPhoneNumber-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		41C53107182C17E552490F72E85396DC /* FIIcon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIIcon.m; path = FontasticIcons/Sources/Classes/FIIcon.m; sourceTree = "<group>"; };
+		4228E528345C9F704096D13ABE5474AA /* NBNumberFormat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NBNumberFormat.m; path = libPhoneNumber/NBNumberFormat.m; sourceTree = "<group>"; };
+		43F895D41EE5B60A9786F318949A3C1C /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
+		44672535B4597FC6D970434D3B85BBA1 /* FIIconicIcon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIIconicIcon.m; path = FontasticIcons/Sources/Classes/FIIconicIcon.m; sourceTree = "<group>"; };
+		45FD5FDC840EC178DA657E98DD998FC5 /* ChineseToPinyinResource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ChineseToPinyinResource.m; path = PinYin4Objc/Classes/ChineseToPinyinResource.m; sourceTree = "<group>"; };
+		49F6DB559EC4146E63FE26F972DDCEC9 /* FIIconView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIIconView.m; path = FontasticIcons/Sources/Classes/FIIconView.m; sourceTree = "<group>"; };
+		4E0508CF901FD343303A3DA42ED38B1E /* FIIconLayer+FIRenderer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FIIconLayer+FIRenderer.m"; path = "FontasticIcons/Sources/Classes/FIIconLayer+FIRenderer.m"; sourceTree = "<group>"; };
+		54F0BFED45331308B2470385218845B9 /* NSString+PinYin4Cocoa.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+PinYin4Cocoa.h"; path = "PinYin4Objc/Classes/NSString+PinYin4Cocoa.h"; sourceTree = "<group>"; };
+		554571259A15E34BE2499AA346751E43 /* PinyinHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PinyinHelper.h; path = PinYin4Objc/Classes/PinyinHelper.h; sourceTree = "<group>"; };
+		5857B6E338ACEC11166CCE60CA920DBE /* FIEntypoIcon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIEntypoIcon.m; path = FontasticIcons/Sources/Classes/FIEntypoIcon.m; sourceTree = "<group>"; };
+		5A4CBCD2E06E8ED9D541D965DBA08B7C /* PinYin4Objc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PinYin4Objc.xcconfig; sourceTree = "<group>"; };
+		5C8F43A85EAE309DBDC1B53505861F16 /* FIFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIFont.h; path = FontasticIcons/Sources/Classes/FIFont.h; sourceTree = "<group>"; };
+		628967CA7B7ACD176A69139FFE0C4899 /* FIFontAwesomeIcon+Deprecation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FIFontAwesomeIcon+Deprecation.h"; path = "FontasticIcons/Sources/Classes/FIFontAwesomeIcon+Deprecation.h"; sourceTree = "<group>"; };
+		63AAE645632E929E330C7D9A3218F8C6 /* Entypo.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Entypo.strings; path = FontasticIcons/Sources/Resources/Strings/Entypo.strings; sourceTree = "<group>"; };
+		66023955AA0E2AD86190EE2AA59E6355 /* FontAwesomeRegular+Deprecation.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = "FontAwesomeRegular+Deprecation.strings"; path = "FontasticIcons/Sources/Resources/Strings/FontAwesomeRegular+Deprecation.strings"; sourceTree = "<group>"; };
+		68A3AB11107147C1B0DCEDB01147D0E9 /* NBMetadataCoreTestMapper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NBMetadataCoreTestMapper.m; path = libPhoneNumber/NBMetadataCoreTestMapper.m; sourceTree = "<group>"; };
+		6AC86069DEF103E8D2FD90C1D1B6CBCD /* NBPhoneMetaData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NBPhoneMetaData.m; path = libPhoneNumber/NBPhoneMetaData.m; sourceTree = "<group>"; };
+		6AE7ED55512C1DDDEC511ADA3FC69767 /* FontasticIcons-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FontasticIcons-dummy.m"; sourceTree = "<group>"; };
+		6C2A229E18718D033E0E491BDD594090 /* PinYin4Objc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PinYin4Objc.h; path = PinYin4Objc/Classes/PinYin4Objc.h; sourceTree = "<group>"; };
+		6EF0BD5A5512E3E7F58CD0D543EE800F /* FIEntypoIcon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIEntypoIcon.h; path = FontasticIcons/Sources/Classes/FIEntypoIcon.h; sourceTree = "<group>"; };
+		707B790D8FA4359B7117B2D7F6A6E481 /* NBAsYouTypeFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NBAsYouTypeFormatter.h; path = libPhoneNumber/NBAsYouTypeFormatter.h; sourceTree = "<group>"; };
+		71A28D6EF0E5364E86FB6FA1E29ADAF6 /* JCDialPad.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JCDialPad.h; path = JCDialPad/JCDialPad.h; sourceTree = "<group>"; };
+		71FBF18905C4BDE7FF370CAA1AFD79F1 /* NBMetadataHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NBMetadataHelper.m; path = libPhoneNumber/NBMetadataHelper.m; sourceTree = "<group>"; };
+		74845F19A329C565BC77AF74C1E24614 /* IconicStroke.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = IconicStroke.strings; path = FontasticIcons/Sources/Resources/Strings/IconicStroke.strings; sourceTree = "<group>"; };
+		79E7FF83233A105BE62E9979EED7975E /* FIIcon+Impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FIIcon+Impl.h"; path = "FontasticIcons/Sources/Classes/FIIcon+Impl.h"; sourceTree = "<group>"; };
+		7CFE1EF3B6FBD85AF063057545DCD182 /* libPinYin4Objc.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPinYin4Objc.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D6B8E154A1EC4FBDB378DDDD597F80F /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
+		7D981D1A1349C49B8FABE7B17DEA0EB7 /* Pods-我的通讯录.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-我的通讯录.release.xcconfig"; sourceTree = "<group>"; };
+		7DC5A9A3001AB1B91CD1123353980968 /* FIFontAwesomeIcon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIFontAwesomeIcon.h; path = FontasticIcons/Sources/Classes/FIFontAwesomeIcon.h; sourceTree = "<group>"; };
+		7E6C3E4C4F983E03946D4D52EEC148B7 /* libPhoneNumber-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "libPhoneNumber-iOS.xcconfig"; sourceTree = "<group>"; };
+		7F27E67719D0509102BA6031D30C7385 /* FIIconicIcon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIIconicIcon.h; path = FontasticIcons/Sources/Classes/FIIconicIcon.h; sourceTree = "<group>"; };
+		81207DD50CF96C348B5C4EFE6ACDD91C /* NBPhoneNumberUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NBPhoneNumberUtil.h; path = libPhoneNumber/NBPhoneNumberUtil.h; sourceTree = "<group>"; };
+		842EA4DEECBD11E7C6BEE5140969E76B /* libJCDialPad.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libJCDialPad.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8562255AB39E5F05E975743CB8BE02FB /* NBMetadataCoreTest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NBMetadataCoreTest.m; path = libPhoneNumber/NBMetadataCoreTest.m; sourceTree = "<group>"; };
+		895151581036D04075E944D1BE64531C /* FIFontAwesomeIcon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIFontAwesomeIcon.m; path = FontasticIcons/Sources/Classes/FIFontAwesomeIcon.m; sourceTree = "<group>"; };
+		8C2EE41D868FF18C8CC15752E0926FAD /* libFontasticIcons.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFontasticIcons.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DB7C35CEB0A48EA8C20F1AB3DE26754 /* HanyuPinyinOutputFormat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HanyuPinyinOutputFormat.m; path = PinYin4Objc/Classes/HanyuPinyinOutputFormat.m; sourceTree = "<group>"; };
+		8E0321780BC7A9AFF2B4A5F6DF26979B /* JCPadButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JCPadButton.m; path = JCDialPad/JCPadButton.m; sourceTree = "<group>"; };
+		8F4264AEA38D8CD3701CFB148C4AC123 /* PinYin4Objc-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PinYin4Objc-dummy.m"; sourceTree = "<group>"; };
+		936B657E6F686F79124A10C62B735728 /* FIIconLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIIconLayer.m; path = FontasticIcons/Sources/Classes/FIIconLayer.m; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		971490EB125D6C9B29BB1E4F65F82657 /* FIIconLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIIconLayer.h; path = FontasticIcons/Sources/Classes/FIIconLayer.h; sourceTree = "<group>"; };
+		992EAD16E0DCFA4F5B406E23C340FADF /* NBMetadataCoreTestMapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NBMetadataCoreTestMapper.h; path = libPhoneNumber/NBMetadataCoreTestMapper.h; sourceTree = "<group>"; };
+		9AE7AB28A4EF958904644D02A45F85A7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		9C578D5235F2554F77FAB95193DCA7C5 /* FontasticIcons+Deprecation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FontasticIcons+Deprecation.h"; path = "FontasticIcons/Sources/Classes/FontasticIcons+Deprecation.h"; sourceTree = "<group>"; };
+		9D06016CB44155FC7FBB81AF7C711E77 /* FIFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIFont.m; path = FontasticIcons/Sources/Classes/FIFont.m; sourceTree = "<group>"; };
+		9F7B5510F4129E172F1B3D8F72D1D20D /* NBAsYouTypeFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NBAsYouTypeFormatter.m; path = libPhoneNumber/NBAsYouTypeFormatter.m; sourceTree = "<group>"; };
+		A1651F0BB75EBE30F55054CE6ECBBBC9 /* libPhoneNumber-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "libPhoneNumber-iOS-dummy.m"; sourceTree = "<group>"; };
+		A24BD05DB9C723391209B78B7177C792 /* JCDialPad-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JCDialPad-prefix.pch"; sourceTree = "<group>"; };
+		A2D79380ECBC1D9B98F8F213A1F2AE22 /* FIIconRendering.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIIconRendering.h; path = FontasticIcons/Sources/Classes/FIIconRendering.h; sourceTree = "<group>"; };
+		A2EFE34788C33B8F7DAD319099F36506 /* NBMetadataCore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NBMetadataCore.m; path = libPhoneNumber/NBMetadataCore.m; sourceTree = "<group>"; };
+		A78B3F0687F540EBDDCC3B8E51D3C724 /* FIIcon+Deprecation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FIIcon+Deprecation.h"; path = "FontasticIcons/Sources/Classes/FIIcon+Deprecation.h"; sourceTree = "<group>"; };
+		ABB54222E05B9AC4A564270B4C45AB35 /* iconic.otf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = iconic.otf; path = FontasticIcons/Sources/Resources/Fonts/iconic.otf; sourceTree = "<group>"; };
+		ABFAA8CD5C170A56DBA50616989BD06E /* UIView+FrameAccessor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+FrameAccessor.m"; path = "JCDialPad/UIView+FrameAccessor.m"; sourceTree = "<group>"; };
+		AD9E4C03510B62414BFDA08897705AA2 /* FIIcon+Impl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FIIcon+Impl.m"; path = "FontasticIcons/Sources/Classes/FIIcon+Impl.m"; sourceTree = "<group>"; };
+		AF8097B19C8C104057D41C414D0DF345 /* fontawesome.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = fontawesome.ttf; path = FontasticIcons/Sources/Resources/Fonts/fontawesome.ttf; sourceTree = "<group>"; };
+		B01F63DF8C903198E88E54219580CF1E /* NSString+PinYin4Cocoa.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+PinYin4Cocoa.m"; path = "PinYin4Objc/Classes/NSString+PinYin4Cocoa.m"; sourceTree = "<group>"; };
+		B1AD314A4F3BC8A3959FA5A04E6BBBF2 /* FIFont+Deprecation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FIFont+Deprecation.h"; path = "FontasticIcons/Sources/Classes/FIFont+Deprecation.h"; sourceTree = "<group>"; };
+		B261B279250945A76686D986ED9893B9 /* NBMetadataCoreMapper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NBMetadataCoreMapper.m; path = libPhoneNumber/NBMetadataCoreMapper.m; sourceTree = "<group>"; };
+		BAAD659C65E8F6BA4FF69B2E256B1B1E /* libPods-我的通讯录.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-我的通讯录.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD9407C9DABDAB3D94D66AFFD4DDB23B /* FIIconView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIIconView.h; path = FontasticIcons/Sources/Classes/FIIconView.h; sourceTree = "<group>"; };
+		BE77D0699A7B694D44581C890071152D /* FIIcon+FIIconRenderer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FIIcon+FIIconRenderer.m"; path = "FontasticIcons/Sources/Classes/FIIcon+FIIconRenderer.m"; sourceTree = "<group>"; };
+		C0EE6C70C51ADA612D3B8888D56D0C1E /* FontasticIcons-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FontasticIcons-prefix.pch"; sourceTree = "<group>"; };
+		C132788D580CE3B6C0E6006CCD6D1C81 /* FontAwesomeRegular.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = FontAwesomeRegular.strings; path = FontasticIcons/Sources/Resources/Strings/FontAwesomeRegular.strings; sourceTree = "<group>"; };
+		C16F6696D18016A991A8D1585109581F /* Pods-我的通讯录-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-我的通讯录-resources.sh"; sourceTree = "<group>"; };
+		C442BE193A4C997DECD5635DE3008670 /* FontasticIcons.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FontasticIcons.h; path = FontasticIcons/Sources/Classes/FontasticIcons.h; sourceTree = "<group>"; };
+		C50AC0577D9DCFDB5A5A33B6676D55E2 /* FontasticIcons.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FontasticIcons.xcconfig; sourceTree = "<group>"; };
+		C5953AA80183C5627C3F60220C94EA25 /* NBMetadataCoreTest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NBMetadataCoreTest.h; path = libPhoneNumber/NBMetadataCoreTest.h; sourceTree = "<group>"; };
+		C6B674441AA248AAF3D990CDF58C067D /* Entypo-Social.otf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Entypo-Social.otf"; path = "FontasticIcons/Sources/Resources/Fonts/Entypo-Social.otf"; sourceTree = "<group>"; };
+		CC74B196FCC69420913833C879A7E3C7 /* NBPhoneNumber.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NBPhoneNumber.h; path = libPhoneNumber/NBPhoneNumber.h; sourceTree = "<group>"; };
+		CE8BFD0BC57CD71C661405FC3C09E5F3 /* NBPhoneNumberDesc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NBPhoneNumberDesc.h; path = libPhoneNumber/NBPhoneNumberDesc.h; sourceTree = "<group>"; };
+		D45D028813D7CDAD18EBF6A174B12F8A /* JCDialPad-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JCDialPad-dummy.m"; sourceTree = "<group>"; };
+		DC72FE5C338F1539D11751C76B59AF7D /* HanyuPinyinOutputFormat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HanyuPinyinOutputFormat.h; path = PinYin4Objc/Classes/HanyuPinyinOutputFormat.h; sourceTree = "<group>"; };
+		E0421AEB8F818AE9966657D0C4074A23 /* JCDialPad.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JCDialPad.xcconfig; sourceTree = "<group>"; };
+		E36022082087154E33EFF4B3C9FC3C39 /* FIIcon+Forwarding.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FIIcon+Forwarding.m"; path = "FontasticIcons/Sources/Classes/FIIcon+Forwarding.m"; sourceTree = "<group>"; };
+		E3FA3BB7A3607012BDE753802A967380 /* FIFont+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FIFont+Private.h"; path = "FontasticIcons/Sources/Classes/FIFont+Private.h"; sourceTree = "<group>"; };
+		E40E5FCD2F66C72005473CB3ECB0E591 /* FIIcon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIIcon.h; path = FontasticIcons/Sources/Classes/FIIcon.h; sourceTree = "<group>"; };
+		E434F2B71E4E858218F0ADD1AF433527 /* Pods-我的通讯录-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-我的通讯录-dummy.m"; sourceTree = "<group>"; };
+		E43D2739464854F4B796422C7FAEEFDE /* NBNumberFormat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NBNumberFormat.h; path = libPhoneNumber/NBNumberFormat.h; sourceTree = "<group>"; };
+		E4C86C41A9E38B0F3ADF95D402F4E4EB /* NBPhoneNumber.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NBPhoneNumber.m; path = libPhoneNumber/NBPhoneNumber.m; sourceTree = "<group>"; };
+		E61C9964F40B37974BF8B57547FCC8B5 /* libPhoneNumber-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "libPhoneNumber-iOS-prefix.pch"; sourceTree = "<group>"; };
+		E66D970E51EB578230DE3677D8DB3E4D /* FIIconLayer+FIRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FIIconLayer+FIRenderer.h"; path = "FontasticIcons/Sources/Classes/FIIconLayer+FIRenderer.h"; sourceTree = "<group>"; };
+		E92FE34DCE3CF839CDF2826676F2FEE7 /* Pods-我的通讯录-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-我的通讯录-frameworks.sh"; sourceTree = "<group>"; };
+		ED144D70CD62C7034A332BFD34FFEAFD /* NBPhoneNumberDefines.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NBPhoneNumberDefines.m; path = libPhoneNumber/NBPhoneNumberDefines.m; sourceTree = "<group>"; };
+		EEB93E816ADC2E0C5CB3536887E43832 /* FIEntypoSocialIcon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIEntypoSocialIcon.h; path = FontasticIcons/Sources/Classes/FIEntypoSocialIcon.h; sourceTree = "<group>"; };
+		EEC43F429FF9E069680A9AF56A273C50 /* NBMetadataHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NBMetadataHelper.h; path = libPhoneNumber/NBMetadataHelper.h; sourceTree = "<group>"; };
+		EEC76275754819194BE8234E3B7B2713 /* FIIcon+FIIconRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FIIcon+FIIconRenderer.h"; path = "FontasticIcons/Sources/Classes/FIIcon+FIIconRenderer.h"; sourceTree = "<group>"; };
+		F4AB38F97C6AADC0FE16314B0EBAD4D6 /* PinYin4Objc-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PinYin4Objc-prefix.pch"; sourceTree = "<group>"; };
+		F7F7BB3D8B5C4A744E9F5B0F2411384D /* PinyinFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PinyinFormatter.h; path = PinYin4Objc/Classes/PinyinFormatter.h; sourceTree = "<group>"; };
+		FBA57245076058C3E01379E7D140396E /* NBPhoneMetaData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NBPhoneMetaData.h; path = libPhoneNumber/NBPhoneMetaData.h; sourceTree = "<group>"; };
+		FCF8E50D8C1EAB9AEB42FFE285EF66F9 /* Pods-我的通讯录-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-我的通讯录-acknowledgements.plist"; sourceTree = "<group>"; };
+		FD312AAF5F913956D9FD75AE0D8AEADA /* NBMetadataCoreMapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NBMetadataCoreMapper.h; path = libPhoneNumber/NBMetadataCoreMapper.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00F9BC2C64D0ACE1287784A63A7BA22D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19EEDAC3348B8CFE57D41B76CCBA098D /* CoreText.framework in Frameworks */,
+				3D8BB839666E6345759B8A02BD6038FE /* Foundation.framework in Frameworks */,
+				8FAC8511699A8B04EEB3370DC5E1D1C9 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BFB5BC8C65C66DA21C57A3BBE2AD365 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F63A94B0DFDA82CC6441DCF1F4AA9E34 /* CoreTelephony.framework in Frameworks */,
+				947514391C04CC92044694FC724E5EE7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99150F972A6BC5CBF8EC03B3418857EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB32DF522CA6EB4788B2BA8C107AC5C7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A608F649D6A2E9C028B94FA3170A9DE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2665DA7F311CCB8653B5EF0B920EC2DE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9519604A459A7A23AC78523D2E916ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71856A244D31188FDFBEC9A125722632 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF30F6DE89F55AA4040712BDBB98C9EC /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2F5AAC2E8941E541E21DA474D434352B /* PinYin4Objc */ = {
+			isa = PBXGroup;
+			children = (
+				27F33C57D08962B735BAE13BAE9A7286 /* ChineseToPinyinResource.h */,
+				45FD5FDC840EC178DA657E98DD998FC5 /* ChineseToPinyinResource.m */,
+				DC72FE5C338F1539D11751C76B59AF7D /* HanyuPinyinOutputFormat.h */,
+				8DB7C35CEB0A48EA8C20F1AB3DE26754 /* HanyuPinyinOutputFormat.m */,
+				54F0BFED45331308B2470385218845B9 /* NSString+PinYin4Cocoa.h */,
+				B01F63DF8C903198E88E54219580CF1E /* NSString+PinYin4Cocoa.m */,
+				6C2A229E18718D033E0E491BDD594090 /* PinYin4Objc.h */,
+				F7F7BB3D8B5C4A744E9F5B0F2411384D /* PinyinFormatter.h */,
+				133EC5E8A24BD1BCD64CA58DACDB2D92 /* PinyinFormatter.m */,
+				554571259A15E34BE2499AA346751E43 /* PinyinHelper.h */,
+				358C3872AA3C6B467DB0000CBD16622A /* PinyinHelper.m */,
+				99D0FA0B8B87D83A9FE271103F6C2EF9 /* Resources */,
+				490564564F2012C6E15007385BB1DB98 /* Support Files */,
+			);
+			path = PinYin4Objc;
+			sourceTree = "<group>";
+		};
+		34946270F1B0CDCA9875F3C29E26E322 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C2EE41D868FF18C8CC15752E0926FAD /* libFontasticIcons.a */,
+				842EA4DEECBD11E7C6BEE5140969E76B /* libJCDialPad.a */,
+				3D380BF2055148485F22D29F9A5A6EE0 /* liblibPhoneNumber-iOS.a */,
+				7CFE1EF3B6FBD85AF063057545DCD182 /* libPinYin4Objc.a */,
+				BAAD659C65E8F6BA4FF69B2E256B1B1E /* libPods-我的通讯录.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3AA17D21E4A135809EBC3AA6E86F411B /* FontasticIcons */ = {
+			isa = PBXGroup;
+			children = (
+				6EF0BD5A5512E3E7F58CD0D543EE800F /* FIEntypoIcon.h */,
+				5857B6E338ACEC11166CCE60CA920DBE /* FIEntypoIcon.m */,
+				EEB93E816ADC2E0C5CB3536887E43832 /* FIEntypoSocialIcon.h */,
+				0BA8A32A2E6EED1E59BAC63FF8F3F5F8 /* FIEntypoSocialIcon.m */,
+				5C8F43A85EAE309DBDC1B53505861F16 /* FIFont.h */,
+				9D06016CB44155FC7FBB81AF7C711E77 /* FIFont.m */,
+				B1AD314A4F3BC8A3959FA5A04E6BBBF2 /* FIFont+Deprecation.h */,
+				05DBFBE022EAE5DCAD27F3034D9C19FD /* FIFont+Deprecation.m */,
+				E3FA3BB7A3607012BDE753802A967380 /* FIFont+Private.h */,
+				7DC5A9A3001AB1B91CD1123353980968 /* FIFontAwesomeIcon.h */,
+				895151581036D04075E944D1BE64531C /* FIFontAwesomeIcon.m */,
+				628967CA7B7ACD176A69139FFE0C4899 /* FIFontAwesomeIcon+Deprecation.h */,
+				E40E5FCD2F66C72005473CB3ECB0E591 /* FIIcon.h */,
+				41C53107182C17E552490F72E85396DC /* FIIcon.m */,
+				A78B3F0687F540EBDDCC3B8E51D3C724 /* FIIcon+Deprecation.h */,
+				12C1312C30E1CCDC2BBE6F82213EB7DF /* FIIcon+Deprecation.m */,
+				EEC76275754819194BE8234E3B7B2713 /* FIIcon+FIIconRenderer.h */,
+				BE77D0699A7B694D44581C890071152D /* FIIcon+FIIconRenderer.m */,
+				E36022082087154E33EFF4B3C9FC3C39 /* FIIcon+Forwarding.m */,
+				79E7FF83233A105BE62E9979EED7975E /* FIIcon+Impl.h */,
+				AD9E4C03510B62414BFDA08897705AA2 /* FIIcon+Impl.m */,
+				7F27E67719D0509102BA6031D30C7385 /* FIIconicIcon.h */,
+				44672535B4597FC6D970434D3B85BBA1 /* FIIconicIcon.m */,
+				971490EB125D6C9B29BB1E4F65F82657 /* FIIconLayer.h */,
+				936B657E6F686F79124A10C62B735728 /* FIIconLayer.m */,
+				E66D970E51EB578230DE3677D8DB3E4D /* FIIconLayer+FIRenderer.h */,
+				4E0508CF901FD343303A3DA42ED38B1E /* FIIconLayer+FIRenderer.m */,
+				A2D79380ECBC1D9B98F8F213A1F2AE22 /* FIIconRendering.h */,
+				BD9407C9DABDAB3D94D66AFFD4DDB23B /* FIIconView.h */,
+				49F6DB559EC4146E63FE26F972DDCEC9 /* FIIconView.m */,
+				05114C2B6D6B023C57FE0DF93EFAD271 /* FIRenderer.h */,
+				C442BE193A4C997DECD5635DE3008670 /* FontasticIcons.h */,
+				9C578D5235F2554F77FAB95193DCA7C5 /* FontasticIcons+Deprecation.h */,
+				741BEFD65DC673FA8E1DF154085EAE8F /* Resources */,
+				714CF81DF72EC4C5EAF2FC43A77314D7 /* Support Files */,
+			);
+			path = FontasticIcons;
+			sourceTree = "<group>";
+		};
+		3B177F0E5585ACB0A7FE6496EA8FDA5D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3AA17D21E4A135809EBC3AA6E86F411B /* FontasticIcons */,
+				47F01CEA3828BB23ECE5D4AAADBBD482 /* JCDialPad */,
+				49157E9C334165EFEF226A4DD413BDA3 /* libPhoneNumber-iOS */,
+				2F5AAC2E8941E541E21DA474D434352B /* PinYin4Objc */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		47F01CEA3828BB23ECE5D4AAADBBD482 /* JCDialPad */ = {
+			isa = PBXGroup;
+			children = (
+				71A28D6EF0E5364E86FB6FA1E29ADAF6 /* JCDialPad.h */,
+				1C790308C585FB977DBB8337A8B4E793 /* JCDialPad.m */,
+				0FCE4CA4A0B5B922F86E21216F3271CA /* JCPadButton.h */,
+				8E0321780BC7A9AFF2B4A5F6DF26979B /* JCPadButton.m */,
+				27944C8B891604E1456D25DA18EBD801 /* UIView+FrameAccessor.h */,
+				ABFAA8CD5C170A56DBA50616989BD06E /* UIView+FrameAccessor.m */,
+				E057F456E4656AA1EFF9E75E3A0C1F8F /* Support Files */,
+			);
+			path = JCDialPad;
+			sourceTree = "<group>";
+		};
+		490564564F2012C6E15007385BB1DB98 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5A4CBCD2E06E8ED9D541D965DBA08B7C /* PinYin4Objc.xcconfig */,
+				8F4264AEA38D8CD3701CFB148C4AC123 /* PinYin4Objc-dummy.m */,
+				F4AB38F97C6AADC0FE16314B0EBAD4D6 /* PinYin4Objc-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PinYin4Objc";
+			sourceTree = "<group>";
+		};
+		49157E9C334165EFEF226A4DD413BDA3 /* libPhoneNumber-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				707B790D8FA4359B7117B2D7F6A6E481 /* NBAsYouTypeFormatter.h */,
+				9F7B5510F4129E172F1B3D8F72D1D20D /* NBAsYouTypeFormatter.m */,
+				3B3A81D8D0D6FAA3A67B284A7A2AD299 /* NBMetadataCore.h */,
+				A2EFE34788C33B8F7DAD319099F36506 /* NBMetadataCore.m */,
+				FD312AAF5F913956D9FD75AE0D8AEADA /* NBMetadataCoreMapper.h */,
+				B261B279250945A76686D986ED9893B9 /* NBMetadataCoreMapper.m */,
+				C5953AA80183C5627C3F60220C94EA25 /* NBMetadataCoreTest.h */,
+				8562255AB39E5F05E975743CB8BE02FB /* NBMetadataCoreTest.m */,
+				992EAD16E0DCFA4F5B406E23C340FADF /* NBMetadataCoreTestMapper.h */,
+				68A3AB11107147C1B0DCEDB01147D0E9 /* NBMetadataCoreTestMapper.m */,
+				EEC43F429FF9E069680A9AF56A273C50 /* NBMetadataHelper.h */,
+				71FBF18905C4BDE7FF370CAA1AFD79F1 /* NBMetadataHelper.m */,
+				E43D2739464854F4B796422C7FAEEFDE /* NBNumberFormat.h */,
+				4228E528345C9F704096D13ABE5474AA /* NBNumberFormat.m */,
+				FBA57245076058C3E01379E7D140396E /* NBPhoneMetaData.h */,
+				6AC86069DEF103E8D2FD90C1D1B6CBCD /* NBPhoneMetaData.m */,
+				CC74B196FCC69420913833C879A7E3C7 /* NBPhoneNumber.h */,
+				E4C86C41A9E38B0F3ADF95D402F4E4EB /* NBPhoneNumber.m */,
+				3BE02D72DD8B0C3FA2352FF2201C6F32 /* NBPhoneNumberDefines.h */,
+				ED144D70CD62C7034A332BFD34FFEAFD /* NBPhoneNumberDefines.m */,
+				CE8BFD0BC57CD71C661405FC3C09E5F3 /* NBPhoneNumberDesc.h */,
+				05BB0957F857D786F726B4721A5E0D81 /* NBPhoneNumberDesc.m */,
+				81207DD50CF96C348B5C4EFE6ACDD91C /* NBPhoneNumberUtil.h */,
+				1D8B3F575E6EA8FE7275733727E0C946 /* NBPhoneNumberUtil.m */,
+				D566C705B156CA32594248EA1B3DE90D /* Support Files */,
+			);
+			path = "libPhoneNumber-iOS";
+			sourceTree = "<group>";
+		};
+		56BE3E6BF060C463657F6287B5D7F1C5 /* Pods-我的通讯录 */ = {
+			isa = PBXGroup;
+			children = (
+				3897D0D729FF23A8EA144E1A2506D58C /* Pods-我的通讯录-acknowledgements.markdown */,
+				FCF8E50D8C1EAB9AEB42FFE285EF66F9 /* Pods-我的通讯录-acknowledgements.plist */,
+				E434F2B71E4E858218F0ADD1AF433527 /* Pods-我的通讯录-dummy.m */,
+				E92FE34DCE3CF839CDF2826676F2FEE7 /* Pods-我的通讯录-frameworks.sh */,
+				C16F6696D18016A991A8D1585109581F /* Pods-我的通讯录-resources.sh */,
+				08C30B2BF3A05BD7752BE87FDFF89B42 /* Pods-我的通讯录.debug.xcconfig */,
+				7D981D1A1349C49B8FABE7B17DEA0EB7 /* Pods-我的通讯录.release.xcconfig */,
+			);
+			name = "Pods-我的通讯录";
+			path = "Target Support Files/Pods-我的通讯录";
+			sourceTree = "<group>";
+		};
+		714CF81DF72EC4C5EAF2FC43A77314D7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C50AC0577D9DCFDB5A5A33B6676D55E2 /* FontasticIcons.xcconfig */,
+				6AE7ED55512C1DDDEC511ADA3FC69767 /* FontasticIcons-dummy.m */,
+				C0EE6C70C51ADA612D3B8888D56D0C1E /* FontasticIcons-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FontasticIcons";
+			sourceTree = "<group>";
+		};
+		7258EF343D036E5C7A74587C0B5BD341 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				56BE3E6BF060C463657F6287B5D7F1C5 /* Pods-我的通讯录 */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		741BEFD65DC673FA8E1DF154085EAE8F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				146FC8D7E60047BA0194DF3F6D505EB8 /* Entypo.otf */,
+				63AAE645632E929E330C7D9A3218F8C6 /* Entypo.strings */,
+				C6B674441AA248AAF3D990CDF58C067D /* Entypo-Social.otf */,
+				3539F730D9939C991C41A3DF8F7E2399 /* EntypoSocial.strings */,
+				AF8097B19C8C104057D41C414D0DF345 /* fontawesome.ttf */,
+				C132788D580CE3B6C0E6006CCD6D1C81 /* FontAwesomeRegular.strings */,
+				66023955AA0E2AD86190EE2AA59E6355 /* FontAwesomeRegular+Deprecation.strings */,
+				ABB54222E05B9AC4A564270B4C45AB35 /* iconic.otf */,
+				74845F19A329C565BC77AF74C1E24614 /* IconicStroke.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
+				3B177F0E5585ACB0A7FE6496EA8FDA5D /* Pods */,
+				34946270F1B0CDCA9875F3C29E26E322 /* Products */,
+				7258EF343D036E5C7A74587C0B5BD341 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		99D0FA0B8B87D83A9FE271103F6C2EF9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0DC60B379F0276715716BB3FCED3BF64 /* unicode_to_hanyu_pinyin.txt */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CF30F6DE89F55AA4040712BDBB98C9EC /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				43F895D41EE5B60A9786F318949A3C1C /* CoreTelephony.framework */,
+				7D6B8E154A1EC4FBDB378DDDD597F80F /* CoreText.framework */,
+				9AE7AB28A4EF958904644D02A45F85A7 /* Foundation.framework */,
+				04A1272CD7898DF6D85BCFCA9AF0B0BB /* QuartzCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D566C705B156CA32594248EA1B3DE90D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7E6C3E4C4F983E03946D4D52EEC148B7 /* libPhoneNumber-iOS.xcconfig */,
+				A1651F0BB75EBE30F55054CE6ECBBBC9 /* libPhoneNumber-iOS-dummy.m */,
+				E61C9964F40B37974BF8B57547FCC8B5 /* libPhoneNumber-iOS-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/libPhoneNumber-iOS";
+			sourceTree = "<group>";
+		};
+		E057F456E4656AA1EFF9E75E3A0C1F8F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E0421AEB8F818AE9966657D0C4074A23 /* JCDialPad.xcconfig */,
+				D45D028813D7CDAD18EBF6A174B12F8A /* JCDialPad-dummy.m */,
+				A24BD05DB9C723391209B78B7177C792 /* JCDialPad-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JCDialPad";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2BF59947333F3259870F019E80DFDC70 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3A1277BAADA364C2BEF71A27DFFACBA /* FIEntypoIcon.h in Headers */,
+				8169B05C341F6CF573387182AA00BCE0 /* FIEntypoSocialIcon.h in Headers */,
+				62BA12488542458CFA61ECAD644A29DB /* FIFont+Deprecation.h in Headers */,
+				F21744E5221E846A5C48A69934ECFB13 /* FIFont+Private.h in Headers */,
+				6522C089EB8AD28D2205CFA07FF8D412 /* FIFont.h in Headers */,
+				F1DD32543FEEB9CC0F099DD92F9D4923 /* FIFontAwesomeIcon+Deprecation.h in Headers */,
+				60FD5AEE923169A9444E70EF965E36C8 /* FIFontAwesomeIcon.h in Headers */,
+				2467A7AE65991A8B684EADD5CE1DA3B7 /* FIIcon+Deprecation.h in Headers */,
+				2E7C8F6F06568196EDDADFD4D90BFFB3 /* FIIcon+FIIconRenderer.h in Headers */,
+				68102902F9E41B18B71F8B6F2393FDCB /* FIIcon+Impl.h in Headers */,
+				57BFD091E4F20F14E6664EF9EADDA5B8 /* FIIcon.h in Headers */,
+				34C3901D6E8B566BEA4D3730FDC5244C /* FIIconicIcon.h in Headers */,
+				F6235E1922F2C2E1D7FEB8179B1C8B89 /* FIIconLayer+FIRenderer.h in Headers */,
+				961FFBB1E15F8038F787ACED2C66E1F5 /* FIIconLayer.h in Headers */,
+				AC1712388AE2A0114AA95D4272CE71F7 /* FIIconRendering.h in Headers */,
+				50B2EA0C432C9768A8495D526A72248A /* FIIconView.h in Headers */,
+				BF3AF561103EE863A002B2BAF5C7239C /* FIRenderer.h in Headers */,
+				7E9CA81F8EC2DDB000BC19BBF20569E0 /* FontasticIcons+Deprecation.h in Headers */,
+				CDB5C37675A889F41EC53316BE34CDE3 /* FontasticIcons.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90C5BBD63838D930DE767E306F1CB404 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED5F2BEEAEE10A77B60DF9751746394B /* JCDialPad.h in Headers */,
+				EFA7AE280CF9B94AE2DB4AF8ADA68713 /* JCPadButton.h in Headers */,
+				26E126992CB443EEB9DDFA4CE13A4362 /* UIView+FrameAccessor.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96166E50303562C5F965AB6CB9C21E06 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA68E12BC2C67CD3464E95D627F55D10 /* ChineseToPinyinResource.h in Headers */,
+				7A64FBA532EE50A1600EB1DE4E595CFC /* HanyuPinyinOutputFormat.h in Headers */,
+				4B2A904C218C82FA49EA02814077A576 /* NSString+PinYin4Cocoa.h in Headers */,
+				4856B77569991A1F8ECA90AC1734C181 /* PinYin4Objc.h in Headers */,
+				0E33D27691C990C7C837220DC264B868 /* PinyinFormatter.h in Headers */,
+				47F9D9E27A28CEA429B60ED172E5D799 /* PinyinHelper.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDCBBFF617BFA4A10CF2CD4E3AB4A0BF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DBC12ADCBFA87601A90DB2FE3C3728C /* NBAsYouTypeFormatter.h in Headers */,
+				AF696235B1B1A51005DF57ED5D11FDF7 /* NBMetadataCore.h in Headers */,
+				5BE5F9D53EDFE6012546E01A66423524 /* NBMetadataCoreMapper.h in Headers */,
+				E0795322AD9F314613B6D86962B713DA /* NBMetadataCoreTest.h in Headers */,
+				5893DD2CC6160E1EB1676C65C8E291F0 /* NBMetadataCoreTestMapper.h in Headers */,
+				7172D185F4F8F4A4FBD62708BA68E3D5 /* NBMetadataHelper.h in Headers */,
+				D28EB4B309195AE69EAAEC8F17838FC5 /* NBNumberFormat.h in Headers */,
+				CEBC32AD027F2AD3A147E1A5C720CA30 /* NBPhoneMetaData.h in Headers */,
+				64FB95942254A4DC049E85FD4A7A550C /* NBPhoneNumber.h in Headers */,
+				F72E78DCF9107243742F1BB836917508 /* NBPhoneNumberDefines.h in Headers */,
+				77A6555A59951834B6219D8F4800DFCE /* NBPhoneNumberDesc.h in Headers */,
+				0F713718CD82E34371B2DDAB3EEAF3D6 /* NBPhoneNumberUtil.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0CCBBF4BAA3FA48F98623D8875DC1DA7 /* PinYin4Objc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA4207FFCD94E5098AE817E8A62A9336 /* Build configuration list for PBXNativeTarget "PinYin4Objc" */;
+			buildPhases = (
+				7FC0A65EB9680DF5D1015F24C8C6C65B /* Sources */,
+				99150F972A6BC5CBF8EC03B3418857EB /* Frameworks */,
+				96166E50303562C5F965AB6CB9C21E06 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PinYin4Objc;
+			productName = PinYin4Objc;
+			productReference = 7CFE1EF3B6FBD85AF063057545DCD182 /* libPinYin4Objc.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		1E5936259193F0E0BDEFBFF731D25B62 /* JCDialPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94186D01D4E2FB3F400DEAEAC9AC3D5C /* Build configuration list for PBXNativeTarget "JCDialPad" */;
+			buildPhases = (
+				B44E389E6DC90CA17800FB811B7E9B09 /* Sources */,
+				A608F649D6A2E9C028B94FA3170A9DE7 /* Frameworks */,
+				90C5BBD63838D930DE767E306F1CB404 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05CF8EF5584A1A788B087C89628030BD /* PBXTargetDependency */,
+			);
+			name = JCDialPad;
+			productName = JCDialPad;
+			productReference = 842EA4DEECBD11E7C6BEE5140969E76B /* libJCDialPad.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		3BE1D979F7DD158600BDE8F661639DE5 /* FontasticIcons */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E52F2EF680527A9342EDC417F2323BE /* Build configuration list for PBXNativeTarget "FontasticIcons" */;
+			buildPhases = (
+				A15005F25F2E1FE542334259FEEA02AD /* Sources */,
+				00F9BC2C64D0ACE1287784A63A7BA22D /* Frameworks */,
+				2BF59947333F3259870F019E80DFDC70 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FontasticIcons;
+			productName = FontasticIcons;
+			productReference = 8C2EE41D868FF18C8CC15752E0926FAD /* libFontasticIcons.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8DD77FFBBC6F36515793C021799E67B8 /* libPhoneNumber-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E5F868D3FF0CDF5964C07BF76273DAC /* Build configuration list for PBXNativeTarget "libPhoneNumber-iOS" */;
+			buildPhases = (
+				B5F4502F267E7B3F3183CD87235CD787 /* Sources */,
+				1BFB5BC8C65C66DA21C57A3BBE2AD365 /* Frameworks */,
+				DDCBBFF617BFA4A10CF2CD4E3AB4A0BF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "libPhoneNumber-iOS";
+			productName = "libPhoneNumber-iOS";
+			productReference = 3D380BF2055148485F22D29F9A5A6EE0 /* liblibPhoneNumber-iOS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A46EAB9AC6B3C0E1A08E18539D1E5F9D /* Pods-我的通讯录 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25D55A5A23A4428F36925F6E58B21BE2 /* Build configuration list for PBXNativeTarget "Pods-我的通讯录" */;
+			buildPhases = (
+				BC82893D74499CD667934D31384676A3 /* Sources */,
+				A9519604A459A7A23AC78523D2E916ED /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C18C988E8D1896DEB2F0180800027089 /* PBXTargetDependency */,
+				FA391F8BA5EE873CE43541A087FCFA2F /* PBXTargetDependency */,
+				63571935C76ED041C33D83B090615450 /* PBXTargetDependency */,
+				66B6AAF45A06694B4D25DC23EF5C7EE8 /* PBXTargetDependency */,
+			);
+			name = "Pods-我的通讯录";
+			productName = "Pods-我的通讯录";
+			productReference = BAAD659C65E8F6BA4FF69B2E256B1B1E /* libPods-我的通讯录.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 34946270F1B0CDCA9875F3C29E26E322 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3BE1D979F7DD158600BDE8F661639DE5 /* FontasticIcons */,
+				1E5936259193F0E0BDEFBFF731D25B62 /* JCDialPad */,
+				8DD77FFBBC6F36515793C021799E67B8 /* libPhoneNumber-iOS */,
+				0CCBBF4BAA3FA48F98623D8875DC1DA7 /* PinYin4Objc */,
+				A46EAB9AC6B3C0E1A08E18539D1E5F9D /* Pods-我的通讯录 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7FC0A65EB9680DF5D1015F24C8C6C65B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A07740D16F33C488F368C99537B23E68 /* ChineseToPinyinResource.m in Sources */,
+				BE9BC2852A591E4211551B16EA430231 /* HanyuPinyinOutputFormat.m in Sources */,
+				2658969E817E3F0063EACD27458BCD2F /* NSString+PinYin4Cocoa.m in Sources */,
+				870F921B6CFDBD0486AEF0906D2865C8 /* PinYin4Objc-dummy.m in Sources */,
+				7259EB905DF2E9B7A2512581B9018C54 /* PinyinFormatter.m in Sources */,
+				4A717270FAA9A1A75B2DB47028668973 /* PinyinHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A15005F25F2E1FE542334259FEEA02AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F49521166315A95140A233DFE2F29FD /* FIEntypoIcon.m in Sources */,
+				9C971BE81A3135BFC3986657CF3E25A9 /* FIEntypoSocialIcon.m in Sources */,
+				4148F1AAA50D0E5C676B6801100FE546 /* FIFont+Deprecation.m in Sources */,
+				C5A2FADBF867F2C21E3586866920C97E /* FIFont.m in Sources */,
+				EDE14924224C4BDA90E6A2B2CB898403 /* FIFontAwesomeIcon.m in Sources */,
+				314EF1CD8EE0B2179785691694CFCB4A /* FIIcon+Deprecation.m in Sources */,
+				0B651A1C87185F170912036BBF977D85 /* FIIcon+FIIconRenderer.m in Sources */,
+				E74702B71A0A75FE947D4AB4E193E13A /* FIIcon+Forwarding.m in Sources */,
+				10E00830D8CE128D2B9C9B317DD599D2 /* FIIcon+Impl.m in Sources */,
+				CC48E2FA893B0F011FC40BB324FFE8E9 /* FIIcon.m in Sources */,
+				F3E8225D48C12BA8DACEC806CB5836BA /* FIIconicIcon.m in Sources */,
+				0BA19442B3C89A446777DBBAC1A2BC2D /* FIIconLayer+FIRenderer.m in Sources */,
+				5F24C19A8F2D1B9859EB1A6194C4D0D8 /* FIIconLayer.m in Sources */,
+				81EA4B3F04403F9D3F09BF509C731C9F /* FIIconView.m in Sources */,
+				635D7DB14752D89519BFE294191CFB72 /* FontasticIcons-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B44E389E6DC90CA17800FB811B7E9B09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B99390292FC1E1A4279E7F786A59C2BB /* JCDialPad-dummy.m in Sources */,
+				90683CD8D90CE800FB08FCEC165865F0 /* JCDialPad.m in Sources */,
+				D350D3B75B3AF6DABAAB9EE2D005DFEB /* JCPadButton.m in Sources */,
+				BCD7A6027E6E667FE4403060DAD45334 /* UIView+FrameAccessor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5F4502F267E7B3F3183CD87235CD787 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E2BF8A2BEBA442A865FF3BC5A10C7DE /* libPhoneNumber-iOS-dummy.m in Sources */,
+				09FB1539BD58B4A228AA160590DC5B79 /* NBAsYouTypeFormatter.m in Sources */,
+				DD1C8B2CC41B1321D1B7BFBAF241004C /* NBMetadataCore.m in Sources */,
+				1CFBE629796369F10579102567A9DC90 /* NBMetadataCoreMapper.m in Sources */,
+				2FA5A02E04D2644F05C9A0043C9A859A /* NBMetadataCoreTest.m in Sources */,
+				34B392B231A3ADFFFD59A8B98EE7D501 /* NBMetadataCoreTestMapper.m in Sources */,
+				F03B57F3E522577505CC64FC4DBA6A2C /* NBMetadataHelper.m in Sources */,
+				1830E2DA85A418298B26729EF3B1B52B /* NBNumberFormat.m in Sources */,
+				9AE2EACD34B305149D73B407C2FFBF6F /* NBPhoneMetaData.m in Sources */,
+				B816139DA460A8C018452A469FDD6937 /* NBPhoneNumber.m in Sources */,
+				8CE58F1D796F171C0761C7B0347E62F3 /* NBPhoneNumberDefines.m in Sources */,
+				685F55272933CAE1499AFC99594E7D35 /* NBPhoneNumberDesc.m in Sources */,
+				7B671D3A5B64B556ACA4AF0C1B8C0519 /* NBPhoneNumberUtil.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC82893D74499CD667934D31384676A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FA55AFD2868774E8070370D43BFB818 /* Pods-我的通讯录-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		05CF8EF5584A1A788B087C89628030BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "libPhoneNumber-iOS";
+			target = 8DD77FFBBC6F36515793C021799E67B8 /* libPhoneNumber-iOS */;
+			targetProxy = 33572B5CF474BAF0687EC10F9EAC217D /* PBXContainerItemProxy */;
+		};
+		63571935C76ED041C33D83B090615450 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PinYin4Objc;
+			target = 0CCBBF4BAA3FA48F98623D8875DC1DA7 /* PinYin4Objc */;
+			targetProxy = 525630539DA9C21AD7D182070BC3909C /* PBXContainerItemProxy */;
+		};
+		66B6AAF45A06694B4D25DC23EF5C7EE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "libPhoneNumber-iOS";
+			target = 8DD77FFBBC6F36515793C021799E67B8 /* libPhoneNumber-iOS */;
+			targetProxy = 3747C0E20228CFD2427AC69271B1503A /* PBXContainerItemProxy */;
+		};
+		C18C988E8D1896DEB2F0180800027089 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FontasticIcons;
+			target = 3BE1D979F7DD158600BDE8F661639DE5 /* FontasticIcons */;
+			targetProxy = B1AF0F70AF798973954225556502B035 /* PBXContainerItemProxy */;
+		};
+		FA391F8BA5EE873CE43541A087FCFA2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JCDialPad;
+			target = 1E5936259193F0E0BDEFBFF731D25B62 /* JCDialPad */;
+			targetProxy = 234EF3E665FC43039593F0C3F6CB95C4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		14A5D7336340173C5B915188A05D9025 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0421AEB8F818AE9966657D0C4074A23 /* JCDialPad.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JCDialPad/JCDialPad-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		47BEF9D903506B003EA5C2B249729489 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		7A527C5D808DBE2C87495F902F60E764 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A4CBCD2E06E8ED9D541D965DBA08B7C /* PinYin4Objc.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PinYin4Objc/PinYin4Objc-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		817FAF65BE445B4CC00015825A86F689 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0421AEB8F818AE9966657D0C4074A23 /* JCDialPad.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JCDialPad/JCDialPad-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		8BE1B55914783040E311225B54262837 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C50AC0577D9DCFDB5A5A33B6676D55E2 /* FontasticIcons.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FontasticIcons/FontasticIcons-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		9C08E40B998BC523931A3D1CBDD91020 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C50AC0577D9DCFDB5A5A33B6676D55E2 /* FontasticIcons.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FontasticIcons/FontasticIcons-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		AAF678CED40D3499169D10F63CA0719E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B20402D3083570D94E58951AFC394156 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08C30B2BF3A05BD7752BE87FDFF89B42 /* Pods-我的通讯录.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C26DAE104F90E8DEBF3D2506E35294CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A4CBCD2E06E8ED9D541D965DBA08B7C /* PinYin4Objc.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PinYin4Objc/PinYin4Objc-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F4F5E999ED953AB6B66CD198121BAB85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E6C3E4C4F983E03946D4D52EEC148B7 /* libPhoneNumber-iOS.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/libPhoneNumber-iOS/libPhoneNumber-iOS-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F98CA57E8D3F2DF1AF373F4772FB38C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E6C3E4C4F983E03946D4D52EEC148B7 /* libPhoneNumber-iOS.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/libPhoneNumber-iOS/libPhoneNumber-iOS-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		FE93A54713E660F9942536CE97D2CD8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D981D1A1349C49B8FABE7B17DEA0EB7 /* Pods-我的通讯录.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25D55A5A23A4428F36925F6E58B21BE2 /* Build configuration list for PBXNativeTarget "Pods-我的通讯录" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B20402D3083570D94E58951AFC394156 /* Debug */,
+				FE93A54713E660F9942536CE97D2CD8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47BEF9D903506B003EA5C2B249729489 /* Debug */,
+				AAF678CED40D3499169D10F63CA0719E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E5F868D3FF0CDF5964C07BF76273DAC /* Build configuration list for PBXNativeTarget "libPhoneNumber-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4F5E999ED953AB6B66CD198121BAB85 /* Debug */,
+				F98CA57E8D3F2DF1AF373F4772FB38C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E52F2EF680527A9342EDC417F2323BE /* Build configuration list for PBXNativeTarget "FontasticIcons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C08E40B998BC523931A3D1CBDD91020 /* Debug */,
+				8BE1B55914783040E311225B54262837 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94186D01D4E2FB3F400DEAEAC9AC3D5C /* Build configuration list for PBXNativeTarget "JCDialPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14A5D7336340173C5B915188A05D9025 /* Debug */,
+				817FAF65BE445B4CC00015825A86F689 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA4207FFCD94E5098AE817E8A62A9336 /* Build configuration list for PBXNativeTarget "PinYin4Objc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C26DAE104F90E8DEBF3D2506E35294CA /* Debug */,
+				7A527C5D808DBE2C87495F902F60E764 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

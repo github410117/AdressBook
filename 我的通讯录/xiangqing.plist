@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>data1</key>
+		<array>
+			<dict>
+				<key>Call</key>
+				<string>Call</string>
+				<key>Message</key>
+				<string>message</string>
+			</dict>
+		</array>
+		<key>data2</key>
+		<array>
+			<dict>
+				<key>Label</key>
+				<string>FaceTime</string>
+				<key>Video</key>
+				<string>Video</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>lb3</key>
+		<string>添加到个人收藏</string>
+		<key>lb2</key>
+		<string>共享联系人</string>
+		<key>lb1</key>
+		<string>发送信息</string>
+	</dict>
+	<dict>
+		<key>lb4</key>
+		<string>阻止此来电号码</string>
+	</dict>
+</array>
+</plist>
